@@ -1,0 +1,7 @@
+baseurl = "http://ryanking.com"
+languageCode = "en-us"
+title = "Programming with a LISP"
+
+[Params]
+  Author = "Ryan King"
+  disqusShortname = "ryanking.disqus.com"

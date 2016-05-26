@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming with a LISP </title>
+    <link>http://ryanking.com/post/</link>
+    <language>en-us</language>
+    <author>Ryan King</author>
+    <rights>(C) 2016</rights>
+    <updated>2016-05-26 18:03:24 -0400 EDT</updated>
+
+    
+      
+        <item>
+          <title>Hello, World!</title>
+          <link>http://ryanking.com/post/hello-world/</link>
+          <pubDate>Thu, 26 May 2016 18:03:24 EDT</pubDate>
+          <author>Ryan King</author>
+          <guid>http://ryanking.com/post/hello-world/</guid>
+          <description>&lt;p&gt;Now that school&amp;rsquo;s finally out, I&amp;rsquo;ve finally gotten around to putting my blog up. I will be giving a technical overview in the coming week after I get everything working the way I want. The purpose of this blog is to keep myself focused; if I don&amp;rsquo;t have anything interesting to write about then that&amp;rsquo;s a sign that I need to stop wasting time.&lt;/p&gt;
+
+&lt;p&gt;Most of the content will be related to Computer Science (as seen by the title of this post), but I may ramble about politics, video games, photography, or something else that crosses my mind. Once classes start up again, I&amp;rsquo;ll probably be doing more detailed posts on classes as well as any research I get to do.&lt;/p&gt;
+
+&lt;p&gt;I hope that someday I&amp;rsquo;ll post something useful or interesting, but I&amp;rsquo;m rarely useful or interesting so I&amp;rsquo;m not optimistic&amp;hellip;&lt;/p&gt;
+</description>
+        </item>
+      
+    
+
+  </channel>
+</rss>
