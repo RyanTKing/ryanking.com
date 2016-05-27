@@ -50,6 +50,11 @@ name = "About"
 url = "/about"
 weight = 3
 
+[[menu.main]]
+name = "Contact"
+url = "/contact"
+weight = 3
+
 [social]
 github = "ryantking"
 codepen = "ryantking"
