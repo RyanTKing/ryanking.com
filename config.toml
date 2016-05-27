@@ -5,7 +5,7 @@ title = "The Website of Ryan King"
 preserveTaxonomyNames = true
 paginate = 3
 copyright = "&copy; 2016 Ryan King"
-disqusShortname = "ryanking"
+disqusShortname = "carelesslisper"
 
 [params]
 description = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
@@ -20,9 +20,9 @@ loadFavicon = false
 faviconVersion = ""
 
 [params.intro]
-header = "Programming with a LISP"
-paragraph = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
-about = "Ryan King is a student of Computer Science at Boston University. He is pursuing a combined MS/BA and plans on doing research in functional programming and/or programming language theory."
+header = "Careless Lisper"
+paragraph = "The rantings and ravings of a Computer Science student with an affinity for obscure programming languages"
+about = "Ryan King is a student of Computer Science at Boston University, pursuing a combined MS/BA degree. This blog will be a chronicle of the remainder of his journey, and hopefully share a few of the lessons he learns along the way. The name of this blog, Careless Lisper, is a play on the name of the Lisp family of programming languages and the classic 80s hit, Careless Whisper by Wham."
 
 [params.intro.pic]
 src = "/img/portrait.jpg"

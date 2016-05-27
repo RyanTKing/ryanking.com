@@ -5,7 +5,7 @@ date = "2016-05-27"
 
 # Hello
 
-My name is Ryan King (naturally). I am a rising junior at Boston University studying Computer Science. I'm currently finishing the last of my undergraduate requirements and starting my graduate requirements since I'm doing a combined BA/MS program. I hope to do research in either programming language theory or parallel computing my senior year. Outside of classwork, I am very involved in my fraternity, tutor other Computer Science students, ride my bike, take photos, and exploring the great city of Boston. The name of my blog, _Programming with a LISP_ comes from passion for functional programming, name LISP dialects, as seen in my growing collection of obscure LISP books from the 1980s.
+My name is Ryan King (naturally), and I am an incoming Junior at Boston University studying Computer Science. Currently, I am finishing the last of my undergraduate requirements and starting my graduate requirements since I'm doing a pursuing a combined BA/MS degree. During my senior year, I hope to have the opportunity to participate research that involves either programming language theory or parallel computing. Outside of classwork, I am very involved in my fraternity, I regularly tutor other Computer Science students who have personally requested my services, I ride my bike both to class and for exercise whenever I have free time, and I love snapping photos while exploring great city of Boston.
 
 # Interests
 
@@ -23,11 +23,11 @@ My name is Ryan King (naturally). I am a rising junior at Boston University stud
 
 # Education
 
-* **MS/BA in Computer Science,** 2014-2018  
+* **MS/BA in Computer Science,** May 2018  
 _Boston University_
-* **High School Diploma,** 2010-2014  
+* **High School Diploma,** Jun. 2014  
 _Bridgewater-Raritan High School_
-* **Cisco Certification,** 2010-2012  
+* **Cisco Certification,** May 2012  
 _Somerset County Vocational & Technical Highschool_
 
 ---
@@ -48,9 +48,9 @@ _FIRST Robotics Competition_
 _Uniqlo USA_
 * **Creative Director**, Apr. 2012 - Sept. 2013  
 _Power Apps_
-* **Team Captain**, Jun. 2013 - Jun 2014  
+* **Team Captain**, June 2013 - June 2014  
 _FIRST Robotics Competition_
-* **Media Leader**, Jun. 2012 - Jun 2013  
+* **Media Leader**, June 2012 - June 2013  
 _FIRST Robotics Competition_
 * **Team Captain**, Aug. 2012 - Apr. 2013  
 _FIRST Technical Challenge_
