@@ -1,30 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming with a LISP </title>
+    <title>Programming with a LISP</title>
     <link>http://ryanking.com/</link>
+    <description>Recent content on Programming with a LISP</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <author>Ryan King</author>
-    <rights>(C) 2016</rights>
-    <updated>2016-05-26 18:03:24 -0400 EDT</updated>
-
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Thu, 26 May 2016 18:03:24 -0400</lastBuildDate>
+    <atom:link href="http://ryanking.com/index.xml" rel="self" type="application/rss+xml" />
     
+    <item>
+      <title>Hello, World!</title>
+      <link>http://ryanking.com/post/hello-world/</link>
+      <pubDate>Thu, 26 May 2016 18:03:24 -0400</pubDate>
       
-        <item>
-          <title>Hello, World!</title>
-          <link>http://ryanking.com/post/hello-world/</link>
-          <pubDate>Thu, 26 May 2016 18:03:24 EDT</pubDate>
-          <author>Ryan King</author>
-          <guid>http://ryanking.com/post/hello-world/</guid>
-          <description>&lt;p&gt;Now that school&amp;rsquo;s finally out, I&amp;rsquo;ve finally gotten around to putting my blog up. I will be giving a technical overview in the coming week after I get everything working the way I want. The purpose of this blog is to keep myself focused; if I don&amp;rsquo;t have anything interesting to write about then that&amp;rsquo;s a sign that I need to stop wasting time.&lt;/p&gt;
+      <guid>http://ryanking.com/post/hello-world/</guid>
+      <description>&lt;p&gt;Now that school&amp;rsquo;s finally out, I&amp;rsquo;ve finally gotten around to putting my blog up. I will be giving a technical overview in the coming week after I get everything working the way I want. The purpose of this blog is to keep myself focused; if I don&amp;rsquo;t have anything interesting to write about then that&amp;rsquo;s a sign that I need to stop wasting time.&lt;/p&gt;
 
 &lt;p&gt;Most of the content will be related to Computer Science (as seen by the title of this post), but I may ramble about politics, video games, photography, or something else that crosses my mind. Once classes start up again, I&amp;rsquo;ll probably be doing more detailed posts on classes as well as any research I get to do.&lt;/p&gt;
 
 &lt;p&gt;I hope that someday I&amp;rsquo;ll post something useful or interesting, but I&amp;rsquo;m rarely useful or interesting so I&amp;rsquo;m not optimistic&amp;hellip;&lt;/p&gt;
 </description>
-        </item>
-      
+    </item>
     
-
+    <item>
+      <title>A publication title, such as title of a paper</title>
+      <link>http://ryanking.com/publication/my-paper-name/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/publication/my-paper-name/</guid>
+      <description>&lt;p&gt;Further details on your publication can be written here using &lt;em&gt;Markdown&lt;/em&gt; for formatting. This text will be displayed on the Publication Detail page.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>http://ryanking.com/home/about/</link>
+      <pubDate>Thu, 26 May 2016 19:28:42 -0400</pubDate>
+      
+      <guid>http://ryanking.com/home/about/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

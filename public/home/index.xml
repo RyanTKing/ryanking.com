@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on Programming with a LISP</title>
+    <link>http://ryanking.com/home/</link>
+    <description>Recent content in Homes on Programming with a LISP</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Thu, 26 May 2016 19:28:42 -0400</lastBuildDate>
+    <atom:link href="http://ryanking.com/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>about</title>
+      <link>http://ryanking.com/home/about/</link>
+      <pubDate>Thu, 26 May 2016 19:28:42 -0400</pubDate>
+      
+      <guid>http://ryanking.com/home/about/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
