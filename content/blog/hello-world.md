@@ -1,7 +1,14 @@
 +++
-date = "2016-05-26T18:03:24-04:00"
-draft = false
+author = "Ryan King"
+categories = ["Uncategorized"]
+description = "A brief introduction / test to make sure I didn't break anything."
+featured = ""
+featuredalt = ""
+featuredpath = ""
 title = "Hello, World!"
+date = "2016-05-26"
+type = "post"
+draft = false
 
 +++
 

@@ -1,116 +1,61 @@
-baseurl = "http://ryantking.github.io/"
-title = "Programming with a LISP"
-copyright = "&copy; 2016 Ryan King"
+baseurl = "http://ryanking.com/"
 languageCode = "en-us"
-theme = "academic"
+theme = "future-imperfect"
+title = "The Website of Ryan King"
+preserveTaxonomyNames = true
+paginate = 3
+copyright = "&copy; 2016 Ryan King"
 disqusShortname = "ryanking.disqus.com"
 
 [params]
-name = "Ryan King"
-role = "Student of Computer Science"
-organization = "Boston University"
-email = "hello@ryanking.com"
-phone = "(908) 256-9165"
+description = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
+navbarTitle = "RyanKing.com"
+socialAppearAtTop = true
+socialAppearAtBottom = true
+viewMorePostLink = "/blog/"
 
-date_format = "Mon, Jan 21, 1996"
+categoriesByCount = false
+includeReadingTime = true
+loadFavicon = false
+faviconVersion = ""
 
-math = false
+[params.intro]
+header = "Programming with a LISP"
+paragraph = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
+about = "Ryan King is a student of Computer Science at Boston University. He is pursuing a combined MS/BA and plans on doing research in functional programming and/or programming language theory."
 
-sharing = false
+[params.intro.pic]
+src = "/img/portrait.jpg"
+circle = true
+imperfect = false
+width = "160px"
+alt = "Picture of Ryan King"
 
-custom_css = []
-custom_js = []
-
-[params.about]
-interests = ["Functional Programming", "Machine Learning", "Computational Audio", "Graphic Design", "Web Development"]
-str_interests = "Interests"
-str_education = "Education"
-
-[[params.about.education]]
-course = "Accelerated MS/BA in Computer Science"
-institution = "Boston University"
-year = "2018"
-
-[[params.about.education]]
-course = "High School Diploma"
-institution = "Bridgewater-Raritan High School"
-year = "2014"
-
-[[params.about.education]]
-course = "Cisco Certification"
-institution = "Somerset County Vocational & Technical High School"
-year = "2012"
-
-[params.publications]
-count = 10
-detailed_list = false
-title = "Recent Publications"
-subtitle = ""
-str_all = "More Publications"
-
-# Posts section.
-# Section will only be displayed if there are posts in `content/post/`.
-[params.posts]
-count = 5
-title = "Recent Posts"
-subtitle = ""
-str_all = "More Posts"
-str_read_more = "Read more"
-
-# Projects section.
-# Section will only be displayed if there are projects in `content/project/`.
-[params.projects]
-title = "Projects"
-subtitle = ""
-
-# Contact section.
-[params.contact]
-enable = true
-title = "Contact"
-subtitle = ""
-autolink = true  # Automatically link email and phone?
-
-
-[[params.social]]
-icon = "envelope"
-icon_pack = "fa"
-link = "mailto:hello@eryanking.com"
-
-[[params.social]]
-icon = "twitter"
-icon_pack = "fa"
-link = "//twitter.com/RyanKing"
-
-[[params.social]]
-icon = "github"
-icon_pack = "fa"
-link = "//github.com/RyanTKing"
-
-
-# Navigation Links
-#   The weight parameter defines the order that the links will appear in.
+[params.postAmount]
+sidebar = 2
 
 [[menu.main]]
-name = "Home"
-url = "#top"
+name = "Blog"
+url = "/blog"
+identifier = "fa fa-newspaper-o"
 weight = 1
 
 [[menu.main]]
-name = "Publications"
-url = "#publications"
+name = "Categories"
+url = "/categories"
 weight = 2
 
 [[menu.main]]
-name = "Posts"
-url = "#posts"
+name = "About"
+url = "/about"
 weight = 3
 
-[[menu.main]]
-name = "Projects"
-url = "#projects"
-weight = 4
-
-[[menu.main]]
-name = "Contact"
-url = "#contact"
-weight = 6
+[social]
+github = "ryantking"
+codepen = "ryantking"
+flickr = "130602175@N03"
+instagram = "thee_ryanking"
+linkedin = "ryantking"
+stackoverflow = "6391857"
+twitter = "thee_ryanking"
+email = "hello@ryanking.com"
