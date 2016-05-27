@@ -1,4 +1,4 @@
-baseurl = "http://ryantking.github.io"
+baseurl = "http://ryantking.github.io/"
 title = "Programming with a LISP"
 copyright = "&copy; 2016 Ryan King"
 languageCode = "en-us"
