@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://ryanking.com/</loc>
+    <loc>http://ryantking.github.io/</loc>
     <lastmod>2016-05-26T18:03:24-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://ryanking.com/post/hello-world/</loc>
+    <loc>http://ryantking.github.io/post/hello-world/</loc>
     <lastmod>2016-05-26T18:03:24-04:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ryanking.com/publication/my-paper-name/</loc>
+    <loc>http://ryantking.github.io/publication/my-paper-name/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://ryanking.com/home/about/</loc>
+    <loc>http://ryantking.github.io/home/about/</loc>
     <lastmod>2016-05-26T19:28:42-04:00</lastmod>
   </url>
   
