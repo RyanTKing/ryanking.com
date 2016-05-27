@@ -5,7 +5,7 @@ title = "The Website of Ryan King"
 preserveTaxonomyNames = true
 paginate = 3
 copyright = "&copy; 2016 Ryan King"
-disqusShortname = "ryanking.disqus.com"
+disqusShortname = "ryanking"
 
 [params]
 description = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
