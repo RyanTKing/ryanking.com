@@ -1,46 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming with a LISP</title>
-    <link>http://ryantking.github.io/</link>
-    <description>Recent content on Programming with a LISP</description>
+    <title>The Website of Ryan King</title>
+    <link>http://ryanking.com/</link>
+    <description>Recent content on The Website of Ryan King</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Ryan King</copyright>
-    <lastBuildDate>Thu, 26 May 2016 18:03:24 -0400</lastBuildDate>
-    <atom:link href="http://ryantking.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 27 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://ryanking.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://ryanking.com/about/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hello&lt;/h1&gt;
+
+&lt;p&gt;My name is Ryan King (naturally). I am a rising junior at Boston University studying Computer Science. I&amp;rsquo;m currently finishing the last of my undergraduate requirements and starting my graduate requirements since I&amp;rsquo;m doing a combined BA/MS program. I hope to do research in either programming language theory or parallel computing my senior year. Outside of classwork, I am very involved in my fraternity, tutor other Computer Science students, ride my bike, take photos, and exploring the great city of Boston. The name of my blog, &lt;em&gt;Programming with a LISP&lt;/em&gt; comes from passion for functional programming, name LISP dialects, as seen in my growing collection of obscure LISP books from the 1980s.&lt;/p&gt;
+
+&lt;h1 id=&#34;interests:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Interests&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Functional and logic programming&lt;/li&gt;
+&lt;li&gt;Parallel computing&lt;/li&gt;
+&lt;li&gt;Databases and data modeling&lt;/li&gt;
+&lt;li&gt;Computational audio&lt;/li&gt;
+&lt;li&gt;Graphic design&lt;/li&gt;
+&lt;li&gt;Web development&lt;/li&gt;
+&lt;li&gt;Photography&lt;/li&gt;
+&lt;li&gt;Cycling&lt;/li&gt;
+&lt;li&gt;Magic and juggling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MS/BA in Computer Science,&lt;/strong&gt; 2014-2018&lt;br /&gt;
+&lt;em&gt;Boston University&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High School Diploma,&lt;/strong&gt; 2010-2014&lt;br /&gt;
+&lt;em&gt;Bridgewater-Raritan High School&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cisco Certification,&lt;/strong&gt; 2010-2012&lt;br /&gt;
+&lt;em&gt;Somerset County Vocational &amp;amp; Technical Highschool&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;professional-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Professional Experience&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Web Developer&lt;/strong&gt;, May 2016 - Present&lt;br /&gt;
+&lt;em&gt;Esotico Group LLC&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Senior Counselor&lt;/strong&gt;, Summer 2016&lt;br /&gt;
+&lt;em&gt;Campus Kids NJ&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Computer Science Tutor&lt;/strong&gt;, Sept. 2015 - May 2016&lt;br /&gt;
+&lt;em&gt;Freelance&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wordpress Administrator&lt;/strong&gt;, Fall 2014&lt;br /&gt;
+&lt;em&gt;The Internationalist&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentor&lt;/strong&gt;, June 2014 - Present&lt;br /&gt;
+&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales Associate&lt;/strong&gt;, Sept. 2013 - Jan. 2014&lt;br /&gt;
+&lt;em&gt;Uniqlo USA&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creative Director&lt;/strong&gt;, Apr. 2012 - Sept. 2013&lt;br /&gt;
+&lt;em&gt;Power Apps&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team Captain&lt;/strong&gt;, Jun. 2013 - Jun 2014&lt;br /&gt;
+&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Leader&lt;/strong&gt;, Jun. 2012 - Jun 2013&lt;br /&gt;
+&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team Captain&lt;/strong&gt;, Aug. 2012 - Apr. 2013&lt;br /&gt;
+&lt;em&gt;FIRST Technical Challenge&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Hello, World!</title>
-      <link>http://ryantking.github.io/post/hello-world/</link>
-      <pubDate>Thu, 26 May 2016 18:03:24 -0400</pubDate>
+      <link>http://ryanking.com/blog/hello-world/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://ryantking.github.io/post/hello-world/</guid>
+      <guid>http://ryanking.com/blog/hello-world/</guid>
       <description>&lt;p&gt;Now that school&amp;rsquo;s finally out, I&amp;rsquo;ve finally gotten around to putting my blog up. I will be giving a technical overview in the coming week after I get everything working the way I want. The purpose of this blog is to keep myself focused; if I don&amp;rsquo;t have anything interesting to write about then that&amp;rsquo;s a sign that I need to stop wasting time.&lt;/p&gt;
 
 &lt;p&gt;Most of the content will be related to Computer Science (as seen by the title of this post), but I may ramble about politics, video games, photography, or something else that crosses my mind. Once classes start up again, I&amp;rsquo;ll probably be doing more detailed posts on classes as well as any research I get to do.&lt;/p&gt;
 
 &lt;p&gt;I hope that someday I&amp;rsquo;ll post something useful or interesting, but I&amp;rsquo;m rarely useful or interesting so I&amp;rsquo;m not optimistic&amp;hellip;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>A publication title, such as title of a paper</title>
-      <link>http://ryantking.github.io/publication/my-paper-name/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>http://ryantking.github.io/publication/my-paper-name/</guid>
-      <description>&lt;p&gt;Further details on your publication can be written here using &lt;em&gt;Markdown&lt;/em&gt; for formatting. This text will be displayed on the Publication Detail page.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://ryantking.github.io/home/about/</link>
-      <pubDate>Thu, 26 May 2016 19:28:42 -0400</pubDate>
-      
-      <guid>http://ryantking.github.io/home/about/</guid>
-      <description></description>
     </item>
     
   </channel>
