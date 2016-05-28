@@ -1,5 +1,6 @@
 +++
 title = "About Me"
+date = "2016-05-27"
 
 +++
 
@@ -25,7 +26,7 @@ My name is Ryan King (naturally), and I am an incoming Junior at Boston Universi
 
 * **MS/BA in Computer Science,** May 2018  
 _Boston University_
-* **High School Diploma,** Jun. 2014  
+* **High School Diploma,** June 2014  
 _Bridgewater-Raritan High School_
 * **Cisco Certification,** May 2012  
 _Somerset County Vocational & Technical Highschool_
@@ -40,6 +41,8 @@ _Esotico Group LLC_
 _Campus Kids NJ_
 * **Advanced Computer Science Tutor**, Sept. 2015 - May 2016  
 _Freelance_
+* **Counselor**, Summer 2015
+_Campus Kids NJ_
 * **Wordpress Administrator**, Fall 2014  
 _The Internationalist_
 * **Mentor**, June 2014 - Present  

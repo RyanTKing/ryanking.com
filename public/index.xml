@@ -1,14 +1,84 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>The Website of Ryan King</title>
+    <title>Careless Lisper</title>
     <link>http://ryanking.com/</link>
-    <description>Recent content on The Website of Ryan King</description>
+    <description>Recent content on Careless Lisper</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2016 Ryan King</copyright>
     <lastBuildDate>Fri, 27 May 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://ryanking.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Me</title>
+      <link>http://ryanking.com/about/</link>
+      <pubDate>Fri, 27 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/about/</guid>
+      <description>
+
+&lt;h1 id=&#34;hello:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hello&lt;/h1&gt;
+
+&lt;p&gt;My name is Ryan King (naturally), and I am an incoming Junior at Boston University studying Computer Science. Currently, I am finishing the last of my undergraduate requirements and starting my graduate requirements since I&amp;rsquo;m doing a pursuing a combined BA/MS degree. During my senior year, I hope to have the opportunity to participate research that involves either programming language theory or parallel computing. Outside of classwork, I am very involved in my fraternity, I regularly tutor other Computer Science students who have personally requested my services, I ride my bike both to class and for exercise whenever I have free time, and I love snapping photos while exploring great city of Boston.&lt;/p&gt;
+
+&lt;h1 id=&#34;interests:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Interests&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Functional and logic programming&lt;/li&gt;
+&lt;li&gt;Parallel computing&lt;/li&gt;
+&lt;li&gt;Databases and data modeling&lt;/li&gt;
+&lt;li&gt;Computational audio&lt;/li&gt;
+&lt;li&gt;Graphic design&lt;/li&gt;
+&lt;li&gt;Web development&lt;/li&gt;
+&lt;li&gt;Photography&lt;/li&gt;
+&lt;li&gt;Cycling&lt;/li&gt;
+&lt;li&gt;Magic and juggling&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;MS/BA in Computer Science,&lt;/strong&gt; May 2018&lt;br /&gt;
+&lt;em&gt;Boston University&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;High School Diploma,&lt;/strong&gt; June 2014&lt;br /&gt;
+&lt;em&gt;Bridgewater-Raritan High School&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cisco Certification,&lt;/strong&gt; May 2012&lt;br /&gt;
+&lt;em&gt;Somerset County Vocational &amp;amp; Technical Highschool&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;professional-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Professional Experience&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Web Developer&lt;/strong&gt;, May 2016 - Present&lt;br /&gt;
+&lt;em&gt;Esotico Group LLC&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Senior Counselor&lt;/strong&gt;, Summer 2016&lt;br /&gt;
+&lt;em&gt;Campus Kids NJ&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Advanced Computer Science Tutor&lt;/strong&gt;, Sept. 2015 - May 2016&lt;br /&gt;
+&lt;em&gt;Freelance&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Counselor&lt;/strong&gt;, Summer 2015
+&lt;em&gt;Campus Kids NJ&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Wordpress Administrator&lt;/strong&gt;, Fall 2014&lt;br /&gt;
+&lt;em&gt;The Internationalist&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mentor&lt;/strong&gt;, June 2014 - Present&lt;br /&gt;
+&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sales Associate&lt;/strong&gt;, Sept. 2013 - Jan. 2014&lt;br /&gt;
+&lt;em&gt;Uniqlo USA&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creative Director&lt;/strong&gt;, Apr. 2012 - Sept. 2013&lt;br /&gt;
+&lt;em&gt;Power Apps&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team Captain&lt;/strong&gt;, June 2013 - June 2014&lt;br /&gt;
+&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Media Leader&lt;/strong&gt;, June 2012 - June 2013&lt;br /&gt;
+&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Team Captain&lt;/strong&gt;, Aug. 2012 - Apr. 2013&lt;br /&gt;
+&lt;em&gt;FIRST Technical Challenge&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Contact Me</title>
@@ -66,74 +136,6 @@ yadlJmfT&lt;br /&gt;
 &lt;p&gt;Most of the content will be related to Computer Science (as seen by the title of this post), but I may ramble about politics, video games, photography, or something else that crosses my mind. Once classes start up again, I&amp;rsquo;ll probably be doing more detailed posts on classes as well as any research I get to do.&lt;/p&gt;
 
 &lt;p&gt;I hope that someday I&amp;rsquo;ll post something useful or interesting, but I&amp;rsquo;m rarely useful or interesting so I&amp;rsquo;m not optimistic&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About Me</title>
-      <link>http://ryanking.com/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://ryanking.com/about/</guid>
-      <description>
-
-&lt;h1 id=&#34;hello:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hello&lt;/h1&gt;
-
-&lt;p&gt;My name is Ryan King (naturally), and I am an incoming Junior at Boston University studying Computer Science. Currently, I am finishing the last of my undergraduate requirements and starting my graduate requirements since I&amp;rsquo;m doing a pursuing a combined BA/MS degree. During my senior year, I hope to have the opportunity to participate research that involves either programming language theory or parallel computing. Outside of classwork, I am very involved in my fraternity, I regularly tutor other Computer Science students who have personally requested my services, I ride my bike both to class and for exercise whenever I have free time, and I love snapping photos while exploring great city of Boston.&lt;/p&gt;
-
-&lt;h1 id=&#34;interests:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Interests&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Functional and logic programming&lt;/li&gt;
-&lt;li&gt;Parallel computing&lt;/li&gt;
-&lt;li&gt;Databases and data modeling&lt;/li&gt;
-&lt;li&gt;Computational audio&lt;/li&gt;
-&lt;li&gt;Graphic design&lt;/li&gt;
-&lt;li&gt;Web development&lt;/li&gt;
-&lt;li&gt;Photography&lt;/li&gt;
-&lt;li&gt;Cycling&lt;/li&gt;
-&lt;li&gt;Magic and juggling&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;MS/BA in Computer Science,&lt;/strong&gt; May 2018&lt;br /&gt;
-&lt;em&gt;Boston University&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;High School Diploma,&lt;/strong&gt; Jun. 2014&lt;br /&gt;
-&lt;em&gt;Bridgewater-Raritan High School&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Cisco Certification,&lt;/strong&gt; May 2012&lt;br /&gt;
-&lt;em&gt;Somerset County Vocational &amp;amp; Technical Highschool&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;professional-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Professional Experience&lt;/h1&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Web Developer&lt;/strong&gt;, May 2016 - Present&lt;br /&gt;
-&lt;em&gt;Esotico Group LLC&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Senior Counselor&lt;/strong&gt;, Summer 2016&lt;br /&gt;
-&lt;em&gt;Campus Kids NJ&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Advanced Computer Science Tutor&lt;/strong&gt;, Sept. 2015 - May 2016&lt;br /&gt;
-&lt;em&gt;Freelance&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Wordpress Administrator&lt;/strong&gt;, Fall 2014&lt;br /&gt;
-&lt;em&gt;The Internationalist&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Mentor&lt;/strong&gt;, June 2014 - Present&lt;br /&gt;
-&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Sales Associate&lt;/strong&gt;, Sept. 2013 - Jan. 2014&lt;br /&gt;
-&lt;em&gt;Uniqlo USA&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Creative Director&lt;/strong&gt;, Apr. 2012 - Sept. 2013&lt;br /&gt;
-&lt;em&gt;Power Apps&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Team Captain&lt;/strong&gt;, June 2013 - June 2014&lt;br /&gt;
-&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Media Leader&lt;/strong&gt;, June 2012 - June 2013&lt;br /&gt;
-&lt;em&gt;FIRST Robotics Competition&lt;/em&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Team Captain&lt;/strong&gt;, Aug. 2012 - Apr. 2013&lt;br /&gt;
-&lt;em&gt;FIRST Technical Challenge&lt;/em&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

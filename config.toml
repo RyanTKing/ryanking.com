@@ -1,7 +1,7 @@
 baseurl = "http://ryanking.com/"
 languageCode = "en-us"
 theme = "future-imperfect"
-title = "The Website of Ryan King"
+title = "Careless Lisper"
 preserveTaxonomyNames = true
 paginate = 3
 copyright = "&copy; 2016 Ryan King"
@@ -53,7 +53,7 @@ weight = 3
 [[menu.main]]
 name = "Contact"
 url = "/contact"
-weight = 3
+weight = 4
 
 [social]
 github = "ryantking"
