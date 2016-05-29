@@ -6,6 +6,7 @@ preserveTaxonomyNames = true
 paginate = 3
 copyright = "&copy; 2016 Ryan King"
 disqusShortname = "carelesslisper"
+googleAnalytics = "UA-78435473-1"
 
 [params]
 description = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
