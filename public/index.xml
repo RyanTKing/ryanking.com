@@ -18,11 +18,11 @@
       <guid>http://ryanking.com/about/</guid>
       <description>
 
-&lt;h1 id=&#34;hello:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Hello&lt;/h1&gt;
+&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;
 
 &lt;p&gt;My name is Ryan King (naturally), and I am an incoming Junior at Boston University studying Computer Science. Currently, I am finishing the last of my undergraduate requirements and starting my graduate requirements since I&amp;rsquo;m doing a pursuing a combined BA/MS degree. During my senior year, I hope to have the opportunity to participate research that involves either programming language theory or parallel computing. Outside of classwork, I am very involved in my fraternity, I regularly tutor other Computer Science students who have personally requested my services, I ride my bike both to class and for exercise whenever I have free time, and I love snapping photos while exploring great city of Boston.&lt;/p&gt;
 
-&lt;h1 id=&#34;interests:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Interests&lt;/h1&gt;
+&lt;h1 id=&#34;interests&#34;&gt;Interests&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Functional and logic programming&lt;/li&gt;
@@ -38,7 +38,7 @@
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;education:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Education&lt;/h1&gt;
+&lt;h1 id=&#34;education&#34;&gt;Education&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;MS/BA in Computer Science,&lt;/strong&gt; May 2018&lt;br /&gt;
@@ -51,7 +51,7 @@
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;professional-experience:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;Professional Experience&lt;/h1&gt;
+&lt;h1 id=&#34;professional-experience&#34;&gt;Professional Experience&lt;/h1&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Web Developer&lt;/strong&gt;, May 2016 - Present&lt;br /&gt;

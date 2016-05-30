@@ -17,7 +17,7 @@ viewMorePostLink = "/blog/"
 
 categoriesByCount = false
 includeReadingTime = true
-loadFavicon = false
+loadFavicon = true
 faviconVersion = ""
 
 [params.intro]
