@@ -41,7 +41,7 @@ _Esotico Group LLC_
 _Campus Kids NJ_
 * **Advanced Computer Science Tutor**, Sept. 2015 - May 2016  
 _Freelance_
-* **Counselor**, Summer 2015
+* **Counselor**, Summer 2015  
 _Campus Kids NJ_
 * **Wordpress Administrator**, Fall 2014  
 _The Internationalist_
