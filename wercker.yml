@@ -2,7 +2,7 @@
 # Docker Hub https://registry.hub.docker.com/_/debian/
 # Read more about containers on our dev center
 # http://devcenter.wercker.com/docs/containers/index.html
-box: debian
+box: wercker/default
 # You can also use services such as databases. Read more on our dev center:
 # http://devcenter.wercker.com/docs/services/index.html
 # services:
@@ -20,13 +20,12 @@ build:
     # Read more about steps on our dev center:
     # http://devcenter.wercker.com/docs/steps/index.html
   steps:
-    - arjen/hugo-build@1.9.2:
-        flags: --buildDrafts=true
+    - arjen/hugo-build
 deploy:
   steps:
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
-        domain: ryantking.github.io
-        basedir: public
+        domain: ryanking.com
+        repo: ryantking/ryantking.github.io
