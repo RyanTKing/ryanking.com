@@ -27,5 +27,6 @@ deploy:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
         token: $GIT_TOKEN
+        basedir: /public
         domain: ryanking.com
         repo: ryantking/ryantking.github.io
