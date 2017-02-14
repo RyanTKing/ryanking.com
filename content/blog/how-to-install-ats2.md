@@ -13,7 +13,7 @@ draft = "false"
 
 +++
 
-**Update (2/14/2017):** This tutorial is now out dated! Please see the updated one [here](http://ryanking.com/blog/joy-of-ats-1-installing-ats "Updated ATS Tutorial")
+**Update (2/14/2017):** This tutorial is now out dated! Please see the updated one [here](http://ryanking.com/blog/Joy-of-ATS-1-Installing-ATS/ "Updated ATS Tutorial")!
 
 # What is ATS?
 
