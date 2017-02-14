@@ -13,6 +13,8 @@ draft = "false"
 
 +++
 
+**Update (2/14/2017):** This tutorial is now out dated! Please see the updated one [here](http://ryanking.com/blog/joy-of-ats-1-installing-ats "Updated ATS Tutorial")
+
 # What is ATS?
 
 From the ATS2 website, [ats-lang.org](http://www.ats-lang.org "ATS Website"):
@@ -58,7 +60,7 @@ Apple provides a package for macOS that includes a few essential development too
 Linux distributions usually include a package manager (apt-get, pacman, yum, etc.), but on macOS you'll need to install a third party one, Homebrew is usually the package manager of choice, which can be installed by running the following command in terminal:
 
     $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    
+
 You can read more about Homebrew on its website, [brew.sh](http://brew.sh/ "Homebrew Website"). Other package managers are available such as fink ([finkproject.org](http://finkproject.org/ "Fink Website")) or MacPorts ([macports.org](http://macports.org/ "MacPorts Website")), but as of now Homebrew has become the de facto standard so has the most packages, is the most actively developed, etc.
 
 Here are the sequence of homebrew commands to install the remaining dependencies:
@@ -84,7 +86,7 @@ To build/install/use ATS, a few changes to the environment variables must be mad
     $ export PATSHOME=${PWD}/ATS2
     $ export PATSHOMERELOC=${PWD}/ATS2-contrib
     $ export PATH=${PATSHOME}/bin:${PATH}
-    
+
 The ${PWD} portion of the command is another command that will be called first that will get the full path to the current directory where you cloned the two folders to. The first two variables are used by ATS, but the last one, PATH is a special variable that basically tells your terminal where on your computer file system you store executable programs, for example, when you type "git" into the prompt, your computer searches all the folders stored in the PATH variable for an executable with the name "git" then runs it. Since we will be storing ATS executables in our ATS2 folder, we will add it to the path.
 
 Now we will make the variables permanent by adding them to a file called .bashrc. That file basically stores configurations for your terminal, so if we add those variables there, everytime you open a terminal, the variables will be set. If you use another prompt such as zsh, you can add them to your .zshenv or similar file, but generally speaking, the following commands should take care of it:
@@ -93,7 +95,7 @@ Now we will make the variables permanent by adding them to a file called .bashrc
     $ echo "export PATSHOMERELOC=${PWD}/ATS2-contrib" >> ${HOME}/.bashrc
     $ echo "export PATSHOME_contrib=${PWD}/ATS2-contrib" >> ${HOME}/.bashrc
     $ echo "export PATH=\${PATSHOME}/bin:\${PATH}" >> ${HOME}/.bashrc
-    
+
 Echo is a fancy way of saying "print" and the ">> ${HOME}/.bashrc" will make it so instead of printing out to the terminal, the quoted command will be added to the .bashrc file.
 
 # Building ATS (finally)
@@ -103,12 +105,12 @@ Now that all the setup is done, we can finally build ATS!
     $ cd ATS2
     $ ./configure
     $ make all
-    
+
 That's it! If you've done everything correct up until this point, you should be able to execute the following command get similar output:
 
     $ which patsopt
     /Users/RyanKing/ATS2/bin/patsopt
-    
+
 ## Extensions
 
 The following commands will install the extension for interfacing with z3 for theorem proving:
@@ -123,16 +125,16 @@ Now we will add support for compiling into other languages, the following is nee
 
     $ cd ${PATSHOMERELOC}/Projects/MEDIUM/CATS-parsemit
     $ make DATS_C
-    
+
 First, we'll add Javascript support:
-    
+
     $ cd ${PATSHOMERELOC}/Projects/MEDIUM/CATS-atsccomp/CATS-atscc2js
     $ make build
     $ mv -f atscc2js ${PATSOME}/bin
     $ cd ${PATSHOMERELOC}/contrib/libatscc/libatscc2js
-    $ make all 
+    $ make all
     $ make all_in_one
-    
+
 Now Python:
 
     $ cd ${PATSHOMERELOC}/Projects/MEDIUM/CATS-atsccomp/CATS-atscc2py3
@@ -141,7 +143,7 @@ Now Python:
     $ cd ${PATSHOMERELOC}/contrib/libatscc/libatscc2py3
     $ make all
     $ make all_in_one
-    
+
 And Clojure:
 
     $ cd ${PATSHOMERELOC}/projects/MEDIUM/CATS-atsccomp/CATS-atscc2clj
@@ -150,7 +152,7 @@ And Clojure:
     $ cd ${PATSHOMERELOC}/contrib/libatscc/libatscc2clj
     $ make all
     $ make all_in_one
-    
+
 And finally, erlang:
 
     $ cd ${PATSHOMERELOC}/projects/MEDIUM/CATS-atsccomp/CATS-atscc2erl
