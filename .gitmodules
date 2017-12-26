@@ -1,6 +1,0 @@
-[submodule "public"]
-	path = public
-	url = https://github.com/RyanTKing/ryanking.github.io
-[submodule "themes/future-imperfect"]
-	path = themes/future-imperfect
-	url = https://github.com/jpescador/hugo-future-imperfect.git
