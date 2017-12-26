@@ -23,7 +23,7 @@ faviconVersion = ""
 [params.intro]
 header = "Careless Lisper"
 paragraph = "The rantings and ravings of a Computer Science student with an affinity for obscure programming languages"
-about = "Ryan King is a student of Computer Science at Boston University, pursuing a combined MS/BA degree. This blog will be a chronicle of the remainder of his journey, and hopefully share a few of the lessons he learns along the way. The name of this blog, Careless Lisper, is a play on the name of the Lisp family of programming languages and the classic 80s hit, Careless Whisper by Wham."
+about = "Ryan King is a student of Computer Science at Boston University, pursuing a BA degree. This blog will be a chronicle of the remainder of his journey, and hopefully share a few of the lessons he learns along the way. The name of this blog, Careless Lisper, is a play on the name of the Lisp family of programming languages and the classic 80s hit, Careless Whisper by Wham."
 
 [params.intro.pic]
 src = "/img/portrait.jpg"
