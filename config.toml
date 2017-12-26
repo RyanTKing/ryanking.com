@@ -5,6 +5,7 @@ title = "Careless Lisper"
 preserveTaxonomyNames = true
 paginate = 6
 copyright = "&copy; 2016 Ryan King"
+disqusShortname = "carelesslisper"
 googleAnalytics = "UA-78435473-1"
 
 [params]
@@ -18,12 +19,6 @@ categoriesByCount = false
 includeReadingTime = true
 loadFavicon = true
 faviconVersion = ""
-
-[params.staticman]
-staticman = true
-username = "RyanTKing"
-repo = "ryanking.com"
-branch = "master"
 
 [params.intro]
 header = "Careless Lisper"
