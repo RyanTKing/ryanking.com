@@ -9,7 +9,7 @@ disqusShortname = "carelesslisper"
 googleAnalytics = "UA-78435473-1"
 
 [params]
-description = "The rantings and ravings of a computer science student with an affinity for obscure programming languages"
+description = "The rantings and ravings of a Software Engineer with an affinity for distributed systems and obscure programming languages"
 navbarTitle = "RyanKing.com"
 socialAppearAtTop = true
 socialAppearAtBottom = true
@@ -22,8 +22,8 @@ faviconVersion = ""
 
 [params.intro]
 header = "Careless Lisper"
-paragraph = "The rantings and ravings of a Computer Science student with an affinity for obscure programming languages"
-about = "Ryan King is a student of Computer Science at Boston University, pursuing a BA degree. This blog will be a chronicle of the remainder of his journey, and hopefully share a few of the lessons he learns along the way. The name of this blog, Careless Lisper, is a play on the name of the Lisp family of programming languages and the classic 80s hit, Careless Whisper by Wham."
+paragraph = "The rantings and ravings of a Software Engineer with an affinity for distributed systems and obscure programming languages"
+about = "Ryan King is a Software Engineer at Cogo Labs in Cambridge, MA with a BA in Computer Science from Boston University. In his free time he works on the development of the ATS ecoystem."
 
 [params.intro.pic]
 src = "/img/portrait.jpg"
@@ -60,11 +60,6 @@ identifier = "fa fa-envelope-o"
 weight = 4
 
 [social]
-github = "ryantking"
-codepen = "ryantking"
-flickr = "130602175@N03"
-instagram = "thee_ryanking"
 linkedin = "ryantking"
-stackoverflow = "6391857"
-twitter = "thee_ryanking"
+github = "ryantking"
 email = "hello@ryanking.com"

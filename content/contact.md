@@ -4,8 +4,6 @@ date = "2016-05-27"
 
 +++
 
-**Phone:** (908) 256-9165
-
 **Email:** hello@ryanking.com
 
 **PGP ID:**
@@ -40,4 +38,3 @@ yuQQR7cRiQSEyO36GbTkCNkVbxs8S4S1yaVgUrTv62RmtvIecpaRUIgNEhnnsLTi
 yadlJmfT  
 =wv1m  
 -----END PGP PUBLIC KEY BLOCK-----
-
