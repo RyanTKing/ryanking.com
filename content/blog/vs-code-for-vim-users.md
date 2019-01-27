@@ -366,3 +366,16 @@ on a large project with test suites and spralling dependencies, I use something 
 Code. Who's to say that that the open source go language server will not get to the point that I can go back to using
 vim full time, or another shinny new editor will catch my eye, but for now, I am happy, I am writing code, and
 thinking about the code, not the writing of the code.
+
+# Update 1/27/2019: Finding Zen
+
+The second caveat that I mentioned above that was actually somewhat of an annoyance was the fact that I could not
+easily close an editor group or remap `:q` to close the entier group so if you wanted to remove a pane you may have to
+close quite a few tabs. [zentabs](https://github.com/hitode909/vscode-zentabs) fixed that for me. By simply setting the
+max amount of tabs per group to 1, bam, editor groups now behave like vim panes. I let one `:q` rip and since the group
+always only has one tab, it closes immediately and all is good with the world.
+
+The only thing I would say my setup lacks at this point is more control over the line numbers and linting info.
+I would to be able to mvoe the linting indicators (warnings, errors, etc.) to appear next to the linee number and
+remove the always present scrollbar on the right. Can probably done with some settings tweaking or another extension.
+Will update this post with anymore tweaks that I find to make my VS Code experience better.
