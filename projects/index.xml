@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Careless Lisper</title>
+    <link>http://ryanking.com/projects/</link>
+    <description>Recent content in Projects on Careless Lisper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Wed, 08 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ryanking.com/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wombats</title>
+      <link>http://ryanking.com/projects/wombats/</link>
+      <pubDate>Wed, 08 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/wombats/</guid>
+      <description>Oh how the family affections combat
+Within this heart, and each hour flings a bomb at
+My burning soul! Neither from owl nor from bat
+Can peace be gained until I clasp my wombat.
+&amp;ndash; Dante Gabriel Rosetti
+ Wombats is a package manager inspired by Leiningen and Cargo to automate the ATS workflow.
+Installation Currently the only way to install wombats is manually downloading and install.</description>
+    </item>
+    
+    <item>
+      <title>Highlight.js</title>
+      <link>http://ryanking.com/projects/highlight.js/</link>
+      <pubDate>Mon, 25 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/highlight.js/</guid>
+      <description>Highlight.js is a syntax highlighter written in JavaScript. It works in the browser as well as on the server. It works with pretty much any markup, doesn’t depend on any framework and has automatic language detection.
+Getting Started The bare minimum for using highlight.js on a web page is linking to the library along with one of the styles and calling initHighlightingOnLoad:
+&amp;lt;link rel=&amp;quot;stylesheet&amp;quot; href=&amp;quot;/path/to/styles/default.css&amp;quot;&amp;gt; &amp;lt;script src=&amp;quot;/path/to/highlight.pack.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt; &amp;lt;script&amp;gt;hljs.initHighlightingOnLoad();&amp;lt;/script&amp;gt;  This will find and highlight code inside of &amp;lt;pre&amp;gt;&amp;lt;code&amp;gt; tags; it tries to detect the language automatically.</description>
+    </item>
+    
+    <item>
+      <title>Chip-8 Emulator</title>
+      <link>http://ryanking.com/projects/ats-chip8/</link>
+      <pubDate>Wed, 03 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/ats-chip8/</guid>
+      <description>The long term goal of the project is to use the same implementation with several graphics wrappers such as SDL, X11, and Javascript. Right now, it only supports SDL2.
+Building The entire emulator is built as the default GNU Make routine. The following routines are available along with
+Build the emulator (done by default):
+$ make $ make build  Install NPM dependencies:
+$ make npm-install  Update NPM dependencies:</description>
+    </item>
+    
+    <item>
+      <title>ATS PortAudio Interface</title>
+      <link>http://ryanking.com/projects/ats-portaudio/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/ats-portaudio/</guid>
+      <description>Most functionality of the PortAudio library wrapped for use in ATS projects.</description>
+    </item>
+    
+    <item>
+      <title>ATS X11 Interface</title>
+      <link>http://ryanking.com/projects/ats-x11/</link>
+      <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/ats-x11/</guid>
+      <description>Most functionality of the x11 library wrapped for use in ATS projects.</description>
+    </item>
+    
+    <item>
+      <title>PRWM</title>
+      <link>http://ryanking.com/projects/prwm/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/prwm/</guid>
+      <description>An example use of my port of the X11 library into ATS by writing a simple window manager.</description>
+    </item>
+    
+    <item>
+      <title>Common Lisp Wave Library</title>
+      <link>http://ryanking.com/projects/cl-wave/</link>
+      <pubDate>Mon, 25 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/cl-wave/</guid>
+      <description>A simple library for reading/writing wave files.
+It has the same general features/functionality as the Python wave module.</description>
+    </item>
+    
+    <item>
+      <title>CarePax</title>
+      <link>http://ryanking.com/projects/carepax/</link>
+      <pubDate>Sat, 12 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/projects/carepax/</guid>
+      <description>A service for ordering basic convenience items from cars that will be stocked with items and driving around.
+This project was designed for Boston University CS411: Software Engineering.
+The production version of the project can be scene live here:
+https://carepax-herokuapp.com
+Architecture The core of the project is the Ruby on Rails web application framework on top of the PostgreSQL database. The front end programming was done with HTML (in embedded Ruby files), CSS (using the SASS pre-compiler), and Javascript (using the CoffeeScript precompiler).</description>
+    </item>
+    
+  </channel>
+</rss>

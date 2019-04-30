@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vim on Careless Lisper</title>
+    <link>http://ryanking.com/categories/vim/</link>
+    <description>Recent content in vim on Careless Lisper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Thu, 24 Jan 2019 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ryanking.com/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Code for Vim Users</title>
+      <link>http://ryanking.com/blog/vs-code-for-vim-users/</link>
+      <pubDate>Thu, 24 Jan 2019 18:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/blog/vs-code-for-vim-users/</guid>
+      <description>An Editor Tale as Old as January 1, 1970 Like many people, my journey to Vim did not start at Vim; I spent many days and many nights downloading editors, installing plugins, and learning key bindings that have sinse been forgotten. I had been using SublimeText for a few years when I went into college, but like many poor soles, my first course was a Java course, which broke me, and, as despserate as I have ever been, I booked an appointment at the sinister medical practice of Dr.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tutorials on Careless Lisper</title>
+    <link>http://ryanking.com/categories/tutorials/</link>
+    <description>Recent content in Tutorials on Careless Lisper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Mon, 25 Dec 2017 20:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ryanking.com/categories/tutorials/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title> The Joy of ATS 2: A Simple Game</title>
+      <link>http://ryanking.com/blog/joy-of-ats-2-a-simple-game/</link>
+      <pubDate>Mon, 25 Dec 2017 20:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/blog/joy-of-ats-2-a-simple-game/</guid>
+      <description>Hello, World Now that we have an ATS install up and running on our system, it&amp;rsquo;s time to put it to use. We sill start off by writing the standard &amp;ldquo;hello world&amp;rdquo; program because the Computer Science Tutorial Gods might smite me if we do not. Start by making a new file in your favorite text editor, (I use Emacs with the ats2-mode plugin), and enter the following text:</description>
+    </item>
+    
+    <item>
+      <title>The Joy of ATS 1: Installing ATS</title>
+      <link>http://ryanking.com/blog/joy-of-ats-1-installing-ats/</link>
+      <pubDate>Tue, 14 Feb 2017 12:04:36 -0500</pubDate>
+      
+      <guid>http://ryanking.com/blog/joy-of-ats-1-installing-ats/</guid>
+      <description>Introduction Welcome to a new series of tutorials that I plan on writing over the course of the next several months called &amp;ldquo;The Joy of ATS.&amp;rdquo; For starters, you may not be familiar with ATS, as I wasn&amp;rsquo;t until a few months ago. From the ATS website, ats-lang.org:
+ ATS is a statically typed programming language that unifies implementation with formal specification. It is equipped with a highly expressive type system rooted in the framework Applied Type System, which gives the language its name.</description>
+    </item>
+    
+  </channel>
+</rss>

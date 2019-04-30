@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Camp on Careless Lisper</title>
+    <link>http://ryanking.com/categories/camp/</link>
+    <description>Recent content in Camp on Careless Lisper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Sat, 16 Jul 2016 12:32:44 -0400</lastBuildDate>
+    
+	<atom:link href="http://ryanking.com/categories/camp/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>On Campers and Counselors</title>
+      <link>http://ryanking.com/blog/on-campers-and-counselors/</link>
+      <pubDate>Sat, 16 Jul 2016 12:32:44 -0400</pubDate>
+      
+      <guid>http://ryanking.com/blog/on-campers-and-counselors/</guid>
+      <description>When someone scans your items at the supermarket or brings your food at a restaurant, it is an easy assumption that those people are simply doing their jobs; it&amp;rsquo;s rare to find someone who is passionate about scanning groceries or low-level work in the food service industry. When it comes to the job of camp counseling, most would probably assume the same thing: it&amp;rsquo;s just the means to a paycheck. For some that may be true, but for many, myself included, the paycheck is not the ends, rather, it is merely a way to justify spending two months at camp to those who &amp;ldquo;don&amp;rsquo;t get camp.</description>
+    </item>
+    
+    <item>
+      <title>Why I Work as a Camp Counselor</title>
+      <link>http://ryanking.com/blog/why-i-work-as-a-camp-counselor/</link>
+      <pubDate>Sun, 05 Jun 2016 13:55:33 -0400</pubDate>
+      
+      <guid>http://ryanking.com/blog/why-i-work-as-a-camp-counselor/</guid>
+      <description>As the counting of weeks before camp turns into the counting of days before camp, I&amp;rsquo;ve spent a lot of time reflecting on my choice to spend a second summer as a counselor at a sleep away camp. I believe it comes down to the fact that camp is, to explain mathematically, the &amp;ldquo;absolute value&amp;rdquo; of college; the majority of the positives of college are present at camp, and a majority of the inverses of the negatives of college are also present at camp.</description>
+    </item>
+    
+  </channel>
+</rss>

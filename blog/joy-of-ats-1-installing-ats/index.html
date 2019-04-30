@@ -1,0 +1,1065 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http://ryanking.com/"
+        },
+        "articleSection" : "blog",
+        "name" : "The Joy of ATS 1: Installing ATS",
+        "headline" : "The Joy of ATS 1: Installing ATS",
+        "description" : "The first in a series of ATS tutorials on how to install ATS on *nix Operating Systems.",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2017",
+        "datePublished": "2017-02-14 12:04:36 -0500 EST",
+        "dateModified" : "2017-02-14 12:04:36 -0500 EST",
+        "url" : "http://ryanking.com/blog/joy-of-ats-1-installing-ats/",
+        "wordCount" : "1416",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title>The Joy of ATS 1: Installing ATS</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.49" />
+        
+  
+    
+  
+
+  
+
+  <link rel="apple-touch-icon-precomposed" href='/favicon/apple-touch-icon-precomposed.png'>
+  <link rel="icon" href='/favicon/favicon.png'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/favicon/mstile.png'>
+  <meta name="application-name" content="Careless Lisper">
+  <meta name="msapplication-tooltip" content="The rantings and ravings of a Software Engineer with an affinity for distributed systems and obscure programming languages">
+  <meta name="msapplication-config" content='/favicon/ieconfig.xml'>
+
+
+
+        
+            <meta name="author" content="Ryan King">
+        
+        
+            <meta name="description" content="The first in a series of ATS tutorials on how to install ATS on *nix Operating Systems.">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="The Joy of ATS 1: Installing ATS"/>
+<meta name="twitter:description" content="The first in a series of ATS tutorials on how to install ATS on *nix Operating Systems."/>
+
+        <meta property="og:title" content="The Joy of ATS 1: Installing ATS" />
+<meta property="og:description" content="The first in a series of ATS tutorials on how to install ATS on *nix Operating Systems." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ryanking.com/blog/joy-of-ats-1-installing-ats/" /><meta property="article:published_time" content="2017-02-14T12:04:36-05:00"/>
+<meta property="article:modified_time" content="2017-02-14T12:04:36-05:00"/>
+
+        <meta property="og:image" content="http://ryanking.com//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content="The Joy of ATS 1: Installing ATS">
+<meta itemprop="description" content="The first in a series of ATS tutorials on how to install ATS on *nix Operating Systems.">
+
+
+<meta itemprop="datePublished" content="2017-02-14T12:04:36-05:00" />
+<meta itemprop="dateModified" content="2017-02-14T12:04:36-05:00" />
+<meta itemprop="wordCount" content="1416">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+
+
+  
+    
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-78435473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">RyanKing.com</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/about">
+                            <i class="fa fa-id-badge">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/projects">
+                            <i class="fa fa-file-code-o">&nbsp;</i>Projects
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/contact">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="http://ryanking.com/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="http://ryanking.com/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                <i class="fa fa-id-badge">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects">
+                            <h3>
+                                <i class="fa fa-file-code-o">&nbsp;</i>Projects
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/contact">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/vs-code-for-vim-users/">Visual Studio Code for Vim Users</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-24'>
+                                    January 24, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/vs-code-for-vim-users/" class="image featured">
+            <img src="/img/2019/01/vs-code.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/joy-of-ats-2-a-simple-game/"> The Joy of ATS 2: A Simple Game</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-25'>
+                                    December 25, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/joy-of-ats-2-a-simple-game/" class="image featured">
+            <img src="/img/2017/12/question-mark.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f&amp;text=The%20Joy%20of%20ATS%201%3a%20Installing%20ATS&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f&amp;title=The%20Joy%20of%20ATS%201%3a%20Installing%20ATS" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f&amp;title=The%20Joy%20of%20ATS%201%3a%20Installing%20ATS" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f&amp;title=The%20Joy%20of%20ATS%201%3a%20Installing%20ATS" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f&amp;description=The%20Joy%20of%20ATS%201%3a%20Installing%20ATS" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Ryan%20King&amp;body=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-1-installing-ats%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/joy-of-ats-1-installing-ats/">The Joy of ATS 1: Installing ATS</a></h1>
+            
+        
+        
+            <p>The first in a series of ATS tutorials on how to install ATS on *nix Operating Systems.</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-02-14'>
+            February 14, 2017</time>
+        <span class="author">Ryan King</span>
+        
+            <p>7 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/joy-of-ats-1-installing-ats/" class="image featured">
+            <img src="/img/2017/02/installing-ats.jpg" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Welcome to a new series of tutorials that I plan on writing over the course of the next several months called &ldquo;The Joy of ATS.&rdquo; For starters, you may not be familiar with ATS, as I wasn&rsquo;t until a few months ago. From the ATS website, <a href="http://www.ats-lang.org" title="ATS Website">ats-lang.org</a>:</p>
+
+<blockquote>
+<p>ATS is a statically typed programming language that unifies implementation with formal specification. It is equipped with a highly expressive type system rooted in the framework Applied Type System, which gives the language its name. In particular, both dependent types and linear types are available in ATS.</p>
+</blockquote>
+
+<p>What that means is that it has a highly-sophisticated type-checking system that goes well beyond type-checkers seen in other languages that you may be familiar with.</p>
+
+<p>To give a quick example, let&rsquo;s look at an array; a conventional type-checking system, would only ensure that the variable used to access the array is an integer type (some don&rsquo;t even go that far!), but one can very easily get a run time error if that integer is larger than the size of the array or smaller than zero, no good! In ATS, the array has additional type-checking information attached to it, the size of the array, which allows the ATS type-checker to ask an additional question: &ldquo;is it possible for an integer larger than the size of the array or below zero to be passed as a subscript to this array?&rdquo; If it is possible, ATS will tell you at compile time instead of runtime, allowing you to solve that &ldquo;constraint,&rdquo; which will ensure that you never see an array out of bounds error.</p>
+
+<p>While the nature of the sophisticated type-checker gives ATS a more nuanced syntax that may harder to grasp, once you master that syntax, you will find that ATS is one of the most fun programming languages to write code in, and that the joy you get from seeing a program that you (and the compiler) know is correct is unparalleled by any other language, hence why I named this series &ldquo;The Joy of ATS.&rdquo;</p>
+
+<h1 id="installing-dependencies">Installing Dependencies</h1>
+
+<p>Before we can install ATS itself, we need to install a few utilities that ATS needs in order to build and function:</p>
+
+<ul>
+<li><strong>GCC:</strong> The GNU Compiler Collection is a set of compilers for common programming languages, mainly used to build C code.</li>
+<li><strong>Git:</strong> The most popular distributed version control system (dvcs), which we will use to pull the latest version of ATS.</li>
+<li><strong>GMP:</strong> The GNU Multiple Precision Arithmetic Library is a very correct and efficient math library.</li>
+<li><strong>BDWGC:</strong> A conservative garbage collector for C/C++.</li>
+<li><strong>JSON-C:</strong> A tool for creating/reading JavaScript Object Notation (JSON) objects in C.</li>
+</ul>
+
+<h2 id="the-package-manager">The Package Manager</h2>
+
+<p>First and foremost, we need a package manager to install a handful of dependencies. If you are using a Linux system, then I&rsquo;m going to assume that you are familiar with your distribution&rsquo;s package manager (Advanced Packaging Tool (apt), Pacman (my favorite), Yellowdog Updater, Modifier (yum), etc.), I will be showing all the Linux commands using apt-get since it is the most widely used, but all you need to do is use the corresponding command with your package manager.</p>
+
+<p><strong>Note:</strong> Some package names may be different on different managers, you should be able to run a query or two to intuitively figure out the name for your particular package manager, leave a comment if you are having trouble locating a particular package, and I&rsquo;ll see if I can help you out!</p>
+
+<p>On macOS, we&rsquo;ll need to install a package manager ourselves. Fortunately, macOS is built on top of the BSD code base, so we can very easily unlock its potential as a development powerhouse. The first step is installing the Xcode Command Line Tools, which is a collection of terminal utilities that come by default in a majority of Linux distributions. The installation can easily be done by executing the following command in your terminal emulator of choice (mine is <a href="https://iterm2.com" title="The iTerm2 Website">iTerm2</a>, but the default macOS Terminal application will work just as well):</p>
+
+<pre><code class="language-bash">$ xcode-select --install
+</code></pre>
+
+<p>Now, we can install a package manger of our own! We will be installing one called &ldquo;<a href="http://brew.sh" title="The Homebrew Website">Homebrew</a>,&rdquo; which is by far the most popular package manager on macOS. There are others available such as <a href="http://finkproject.org/" title="The Fink Website">Fink</a> or <a href="http://macports.org/" title="The MacPorts Website">MacPorts</a>, but for the vast majority of users, Homebrew is the best choice. To install it, once again from your terminal, run the following command:</p>
+
+<pre><code class="language-bash">$ /usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
+</code></pre>
+
+<p>After it finishes installing, you should familiarize yourself with it a bit by reading about it on its website, <a href="http://brew.sh/" title="Homebrew Website">brew.sh</a>, and/or its man pages by typing the following in the command line:</p>
+
+<pre><code class="language-bash">$ man brew
+</code></pre>
+
+<h2 id="installing-dependencies-on-linux">Installing Dependencies on Linux</h2>
+
+<p>This section will very a bit depending on your Linux distribution, and unfortunately I only have an Arch Linux box and an Ubuntu virtual machine to test on, so I won&rsquo;t be of much help for every distribution under the sun. As I said in the previous section, I will only be providing the apt-get instructions, but if you&rsquo;re having trouble, leave a commend and I or someone else should be able to help you out. Here are the apt-get commands to install all the dependencies:</p>
+
+<pre><code class="language-bash">$ sudo apt-get update
+$ sudo apt-get install -y build-essential
+$ sudo apt-get install -y libgmp-dev
+$ sudo apt-get install -y libgc-dev
+$ sudo apt-get install -y libjson-c-dev
+</code></pre>
+
+<h2 id="installing-dependencies-on-macos">Installing Dependencies on macOS</h2>
+
+<p>Let&rsquo;s take our brand new package manager for a spin and install the dependencies with the following commands:</p>
+
+<pre><code class="language-bash">$ brew install git
+$ brew install gmp
+$ brew install bdw-gc
+$ brew install json-c
+$ brew cleanup
+</code></pre>
+
+<h1 id="installing-ats">Installing ATS</h1>
+
+<p>The first thing we need to do is obtain the latest version of ATS and the ATS contributions, which are a bunch of ATS packages to extend its core functionality. You need to first choose a directory to install ATS in, I usually use my &ldquo;Projects&rdquo; directory, but you can use your home folder or any other folder of your choice (installing ATS only adds two folders). Open a fresh terminal, switch to your chosen directory, and execute the following commands:</p>
+
+<pre><code class="language-bash">$ git clone &quot;git://git.code.sf.net/p/ats2-lang/code&quot; ATS2-Postiats
+$ git clone &quot;git://git.code.sf.net/p/ats2-lang-contrib/code&quot; ATS2-Postiats-contrib
+</code></pre>
+
+<p>Now we&rsquo;re just about ready to build ATS and start writing some programs! We have to setup a few environment variables so that way the compiler knows where everything is. Assuming that you&rsquo;re in the directory that you cloned everything to, execute the following commands:</p>
+
+<pre><code class="language-bash">$ export PATSHOME=${PWD}/ATS2
+$ export PATSCONTRIB=${PWD}/ATS2-contrib
+$ export PATH=${PATSHOME}/bin:${PATH}
+</code></pre>
+
+<p>While we&rsquo;re at it, we should add those definitions to our environment permanently, since we&rsquo;ll need them throughout the rest of our ATS-programming career. If you&rsquo;re familiar with maintaining environment variables in your .bashrc, .zshrc, or .zshenv files, simply add the above definitions to the dot file you use, otherwise, execute the following commands:</p>
+
+<pre><code class="language-bash">$ echo &quot;export PATSHOME=${PWD}/ATS2&quot; &gt;&gt; ${HOME}/.bashrc
+$ echo &quot;export PATSCONTRIB=${PWD}&quot; &gt;&gt; ${HOME}/.bashrc
+$ echo &quot;export PATH=${PATSHOME}/bin:${PATH}&quot; &gt;&gt; ${HOME}/.bashrc
+</code></pre>
+
+<p>The file, .bashrc is basically a file that tells your system various bits of information, and in this case, we&rsquo;re adding the location of your ATS directory and ATS contributions directory, so we can always find them. We&rsquo;re also adding your ATS directory to your PATH, which basically tells your computer where to look for programs to execute, so when we need to compile something, our computer will be smart enough to look in our ATS directory.</p>
+
+<p>Now that all our setup is done, we can finally build ATS! The following commands are all thats required to build ATS:</p>
+
+<pre><code class="language-bash">$ cd ${PATSHOME}
+$ ./configure
+$ make all
+</code></pre>
+
+<p>Maybe a little anti-climatic after all that setup, but at least we&rsquo;re ready to go! If all you want is a basic ATS install, you can stop reading here and start reading the <a href="http://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html" title="The ATS Tutorial">tutorial</a> while you wait for &ldquo;The Joy of ATS 2!&rdquo;</p>
+
+<h1 id="upgrading-ats">Upgrading ATS</h1>
+
+<p>ATS is very much a work in progress so updates come out somewhat regularly, updating ATS can be done simply by executing the following commands:</p>
+
+<pre><code class="language-bash">$ cd ${PATSHOME}
+$ make clean all
+$ git pull
+$ ./configure
+$ make all
+</code></pre>
+
+<p>Easy! Once in a while, you might want to do a fresh install of ATS, especially if you think something is not working the way it should, but this method should work in a majority of situations.</p>
+
+<p>Hope this post was helpful to all of those trying to get ATS up and running on their own machines, stay tuned for future posts in the series, and feel free to comment any questions/problems that you have!</p>
+
+<p>Happy type-checking!</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="http://ryanking.com/categories/ats">ATS</a></li>
+                
+                
+                <li><a class="article-category-link" href="http://ryanking.com/categories/tutorials">Tutorials</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "carelesslisper" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/on-campers-and-counselors/"
+                class="button big previous">On Campers and Counselors</a></li>
+    
+
+    
+        <li><a href="/blog/joy-of-ats-2-a-simple-game/"
+                class="button big next"> The Joy of ATS 2: A Simple Game</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/portrait.jpg" class="intro-circle" width="160px" alt="Picture of Ryan King" /></a>
+      
+    
+    
+      <header>
+        <h2>Careless Lisper</h2>
+        <p>The rantings and ravings of a Software Engineer with an affinity for distributed systems and obscure programming languages</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/ryantking" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/ryantking" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:hello@ryanking.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/vs-code-for-vim-users/">Visual Studio Code for Vim Users</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-24'>
+                January 24, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/vs-code-for-vim-users/" class="image featured">
+            <img src="/img/2019/01/vs-code.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/joy-of-ats-2-a-simple-game/"> The Joy of ATS 2: A Simple Game</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-25'>
+                December 25, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/joy-of-ats-2-a-simple-game/" class="image featured">
+            <img src="/img/2017/12/question-mark.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Ryan King is a Software Engineer at Cogo Labs in Cambridge, MA with a BA in Computer Science from Boston University. In his free time he works on the development of the ATS ecoystem.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/ryantking" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/ryantking" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:hello@ryanking.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2016 Ryan King
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+		<script src="http://ryanking.com/js/highlight.pack.js"></script>
+        
+        
+        
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

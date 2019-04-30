@@ -1,0 +1,1214 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        <script type="application/ld+json">
+    {
+        "@context" : "http://schema.org",
+        "@type" : "BlogPosting",
+        "mainEntityOfPage": {
+             "@type": "WebPage",
+             "@id": "http://ryanking.com/"
+        },
+        "articleSection" : "blog",
+        "name" : " The Joy of ATS 2: A Simple Game",
+        "headline" : " The Joy of ATS 2: A Simple Game",
+        "description" : "Writing your first lines of code in ATS",
+        "inLanguage" : "en",
+        "author" : "",
+        "creator" : "",
+        "publisher": "",
+        "accountablePerson" : "",
+        "copyrightHolder" : "",
+        "copyrightYear" : "2017",
+        "datePublished": "2017-12-25 20:00:00 &#43;0000 UTC",
+        "dateModified" : "2017-12-25 20:00:00 &#43;0000 UTC",
+        "url" : "http://ryanking.com/blog/joy-of-ats-2-a-simple-game/",
+        "wordCount" : "3152",
+        "keywords" : [ "Blog" ]
+    }
+    </script>
+        
+            
+                <title> The Joy of ATS 2: A Simple Game</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.49" />
+        
+  
+    
+  
+
+  
+
+  <link rel="apple-touch-icon-precomposed" href='/favicon/apple-touch-icon-precomposed.png'>
+  <link rel="icon" href='/favicon/favicon.png'>
+  
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content='/favicon/mstile.png'>
+  <meta name="application-name" content="Careless Lisper">
+  <meta name="msapplication-tooltip" content="The rantings and ravings of a Software Engineer with an affinity for distributed systems and obscure programming languages">
+  <meta name="msapplication-config" content='/favicon/ieconfig.xml'>
+
+
+
+        
+            <meta name="author" content="Ryan King">
+        
+        
+            <meta name="description" content="Writing your first lines of code in ATS">
+        
+
+        <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=" The Joy of ATS 2: A Simple Game"/>
+<meta name="twitter:description" content="Writing your first lines of code in ATS"/>
+
+        <meta property="og:title" content=" The Joy of ATS 2: A Simple Game" />
+<meta property="og:description" content="Writing your first lines of code in ATS" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://ryanking.com/blog/joy-of-ats-2-a-simple-game/" /><meta property="article:published_time" content="2017-12-25T20:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2017-12-25T20:00:00&#43;00:00"/>
+
+        <meta property="og:image" content="http://ryanking.com//images/logo.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="512">
+        <meta property="og:image:height" content="512">
+        
+<meta itemprop="name" content=" The Joy of ATS 2: A Simple Game">
+<meta itemprop="description" content="Writing your first lines of code in ATS">
+
+
+<meta itemprop="datePublished" content="2017-12-25T20:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-12-25T20:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="3152">
+
+
+
+<meta itemprop="keywords" content="" />
+
+        
+
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atom-one-light.min.css">
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/add-on.css">
+            <link rel="stylesheet" href="/css/academicons.min.css">
+        
+
+        
+
+
+  
+    
+
+
+      
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-78435473-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+    </head>
+    <body>
+
+      
+      <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+      <h1><a href="/">RyanKing.com</a></h1>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="/about">
+                            <i class="fa fa-id-badge">&nbsp;</i>About
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/blog">
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/projects">
+                            <i class="fa fa-file-code-o">&nbsp;</i>Projects
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="/contact">
+                            <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="as_sitesearch" value="http://ryanking.com/">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="as_sitesearch" value="http://ryanking.com/">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="/about">
+                            <h3>
+                                <i class="fa fa-id-badge">&nbsp;</i>About
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/blog">
+                            <h3>
+                                <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects">
+                            <h3>
+                                <i class="fa fa-file-code-o">&nbsp;</i>Projects
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/contact">
+                            <h3>
+                                <i class="fa fa-envelope-o">&nbsp;</i>Contact
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section class="recent-posts">
+            <div class="mini-posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+
+                
+                    
+                
+
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/vs-code-for-vim-users/">Visual Studio Code for Vim Users</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2019-01-24'>
+                                    January 24, 2019</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+
+
+        
+        
+        
+
+        <a href="/blog/vs-code-for-vim-users/" class="image featured">
+            <img src="/img//vs-code.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+                        <article class="mini-post">
+                            <header>
+                                <h3><a href="/blog/joy-of-ats-2-a-simple-game/"> The Joy of ATS 2: A Simple Game</a></h3>
+                                
+                                <time class="published" datetime=
+                                    '2017-12-25'>
+                                    December 25, 2017</time>
+                            </header>
+                            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/joy-of-ats-2-a-simple-game/" class="image featured">
+            <img src="/img/2017/12/question-mark.jpg" alt="">
+        </a>
+    
+
+
+                        </article>
+                
+
+                
+                    <a href=
+                        
+                            /blog/
+                        
+                        class="button">View more posts</a>
+                
+            </div>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+
+<li>
+  <a href="//twitter.com/share?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f&amp;text=%20The%20Joy%20of%20ATS%202%3a%20A%20Simple%20Game&amp;via=" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//plus.google.com/share?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+  </a>
+</li>
+
+
+
+
+
+<li>
+  <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//reddit.com/submit?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f&amp;title=%20The%20Joy%20of%20ATS%202%3a%20A%20Simple%20Game" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f&amp;title=%20The%20Joy%20of%20ATS%202%3a%20A%20Simple%20Game" target="_blank" class="share-btn linkedin">
+      <i class="fa fa-linkedin"></i>
+      <p>LinkedIn</p>
+    </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f&amp;title=%20The%20Joy%20of%20ATS%202%3a%20A%20Simple%20Game" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="//www.pinterest.com/pin/create/button/?url=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f&amp;description=%20The%20Joy%20of%20ATS%202%3a%20A%20Simple%20Game" target="_blank" class="share-btn pinterest">
+    <i class="fa fa-pinterest-p"></i>
+    <p>Pinterest</p>
+  </a>
+</li>
+
+
+
+
+<li>
+  <a href="mailto:?subject=Check out this post by Ryan%20King&amp;body=http%3a%2f%2fryanking.com%2fblog%2fjoy-of-ats-2-a-simple-game%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+  </a>
+</li>
+
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+  <header>
+    <div class="title">
+        
+            <h1><a href="/blog/joy-of-ats-2-a-simple-game/"> The Joy of ATS 2: A Simple Game</a></h1>
+            
+        
+        
+            <p>Writing your first lines of code in ATS</p>
+        
+    </div>
+    <div class="meta">
+        
+
+        <time class="published"
+            datetime='2017-12-25'>
+            December 25, 2017</time>
+        <span class="author">Ryan King</span>
+        
+            <p>15 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+  
+
+  
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/joy-of-ats-2-a-simple-game/" class="image featured">
+            <img src="/img/2017/12/question-mark.jpg" alt="">
+        </a>
+    
+
+
+  <div id="content">
+    
+
+<h1 id="hello-world">Hello, World</h1>
+
+<p>Now that we have an ATS install up and running on our system, it&rsquo;s time to put it to use. We sill start off by writing the standard &ldquo;hello world&rdquo; program because the Computer Science Tutorial Gods might smite me if we do not. Start by making a new file in your favorite text editor, (I use Emacs with the ats2-mode plugin), and enter the following text:</p>
+
+<pre><code class="language-ats">implement main0() = () where {
+  val _ = print(&quot;Hello, World!\n&quot;)
+}
+</code></pre>
+
+<p>Now that we some code written, save it as &ldquo;hello.dats&rdquo; and compile with:</p>
+
+<pre><code class="language-bash">$ patscc -o hello hello.dats
+</code></pre>
+
+<p>And then if you run it, you should see the following output:</p>
+
+<pre><code class="language-bash">$ ./hello
+Hello, World!
+</code></pre>
+
+<p>Let&rsquo;s break down this program. The first word you see is &ldquo;implement,&rdquo; which, in plain English, means &ldquo;we have already defined this function so our program knows what it is and can call it, and now we are writing what it actually does.&rdquo; The reason we use &ldquo;implement&rdquo; for main0 without previously defining it ourselves is because, like in C, the main function is the entry-point for our program, so the definition already exists in every ATS program, we are merely just describing what it does in our particular program.</p>
+
+<p>Now, let&rsquo;s look at our main function in detail. We set main0 equal to (), which means void, but the keyword after the parenthesis, &ldquo;where,&rdquo; is what allows us to print our phrase even though the function returns void. The &ldquo;where&rdquo; keyword means that we have a value which uses the following &ldquo;sub-values&rdquo; or &ldquo;sub-functions.&rdquo; We can see a more clear example of its use here, note that the &ldquo;fun&rdquo; keyword allows us to create a new function:</p>
+
+<pre><code class="language-ats">fun foo(): a + b where {
+  val a = 5
+  val b = -3
+}
+</code></pre>
+
+<p>Predictably, &ldquo;foo&rdquo; will return 2, because it is returning the sum of a and b <em>where</em> a is equal to 5 and b is equal to -3; outside of the where statement, a and b will be undefined, much like how if we define variables in an if block in C, the values are not accessible outside of the if block.</p>
+
+<p>The last line we need to look at in our hello program is the one value assignment within the where block. We are assigning the returned value of the function &ldquo;print&rdquo; to the label &ldquo;_&ldquo;, which might make sense if you are familiar with Haskell. The underscore means that we do not care about the return value of the function so we do not need to store its return value in a variable. What we care about is the print function&rsquo;s &ldquo;side effect,&rdquo; which in functional programming terms, means something that happens as the result of calling a function that does not impact the return value, e.g., printing to STDIN, drawing something to the screen, playing a sound, updating a global variable, etc.. So, the whole line means &ldquo;we are calling the print function, but only care about the side effect of it printing to STDIN so do not need to store its return value.&rdquo;</p>
+
+<p>The where statement is one way to create a list of value assignments that can be used to contribute to one value, but the alternative is a &ldquo;let&rdquo; statement. We will rewrite our sample function using that:</p>
+
+<pre><code class="language-ats">fun foo():
+  let
+    val a = 5
+    val b = -3
+  in
+    a + b
+  end
+</code></pre>
+
+<p>Whether you use &ldquo;let&rdquo; or &ldquo;where&rdquo; is a style choice, I typically use a where statement if the final value is something simple such as one function call or variable and a let statement when I have something more complicated. Since ATS does not have any real &ldquo;strict&rdquo; style guidelines and I care very much about code style, I have my own guidelines that I try to apply to all of my code, and should probably write out formally. ATS is a somewhat complex language syntactically so I like to do what I can to make my code as readable as possible.</p>
+
+<h1 id="values-all-the-way-down">Values All the Way Down</h1>
+
+<p>ATS&rsquo;s primary programming paradigm is that of functional programming (not to mean its ONLY paradigm), which Wikipedia defines as follows:</p>
+
+<blockquote>
+<p>In computer science, functional programming is a programming paradigm—a style of building the structure and elements of computer programs—that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. It is a declarative programming paradigm, which means programming is done with expressions[1] or declarations[2] instead of statements. In functional code, the output value of a function depends only on the arguments that are passed to the function, so calling a function f twice with the same value for an argument x produces the same result f(x) each time; this is in contrast to procedures depending on a local or global state, which may produce different results at different times when called with the same arguments but a different program state.</p>
+</blockquote>
+
+<p>In layman&rsquo;s terms, we can think of a program written in a functional style as a list of values and function. Let&rsquo;s look at the following bit of ATS code:</p>
+
+<pre><code class="language-ats">val a = 5
+val b = 6
+fun myadd(x: int, y: int): int = x + y
+val c = myadd(a, b)
+</code></pre>
+
+<p>The first two lines define two integer values, the third line creates a function that takes two integer parameters and returns an integer via adding its parameters, and the third line creates a third value that is the return value of our function with the first two values passed as parameters.</p>
+
+<h1 id="guess-the-number">Guess the Number</h1>
+
+<p>The main project for this entry is going to be a simple game (surprising, I know) called &ldquo;Guess the Number,&rdquo; which lets the user think of a number then guesses it (again, surprising). The game runs as follows:</p>
+
+<ol>
+<li>The program outputs a welcome message.</li>
+<li>The program tells the user to think of a number between the starting lower bound and starting upper bound.</li>
+<li>The program outputs a guess that is halfway between the low and high value.</li>
+<li>The user tells the program whether the value is lower than its guess, higher than its guess, or the guess is correct.</li>
+<li>The program does the following based on the user input:
+
+<ul>
+<li>If the guess is too low (the user inputed &ldquo;&gt;&rdquo;), it sets the upper bound to the guess and goes back to step 3.</li>
+<li>If the guess is too high (the user inputed &ldquo;&lt;&ldquo;), it sets the lower bound to the guess and goes back to step 3.</li>
+<li>If the guess is correct (the user inputed &ldquo;=&rdquo;), it continues.</li>
+</ul></li>
+<li>The program asks the user if it wants to play again and does the following based on the user input:
+
+<ul>
+<li>If the user says yes (the user inputed &ldquo;y&rdquo;), it goes back to step 2.</li>
+<li>If the user says no (the user inputed &ldquo;n&rdquo;), the game ends.</li>
+</ul></li>
+</ol>
+
+<p>As you can see, the guess the number program does not really guess as much as it does a binary search with the help of user input. Also note that in this implementation, we use user inputs of &ldquo;&gt;&rdquo;, &ldquo;&lt;&ldquo;, and &ldquo;=&rdquo; to represent a guess that is less than the target number, greater than the target number, and equal to the target number respectively.</p>
+
+<h2 id="the-statics">The Statics</h2>
+
+<p>The first bit of code we are going to look at is contained in a file we will create called <strong>guess.sats</strong>:</p>
+
+<pre><code class="language-ats">fun start_game(): void
+fun game_loop(low: int, high: int): void
+fun get_response(): string
+fun play_again(): void
+</code></pre>
+
+<p>This is what we call a <strong>static file</strong>. In ATS, &ldquo;statics&rdquo; refer to the formal definition of functions and values, but not actually describing what the value holds or what the function does, just its name and the type associated with it. On the first line, we are saying that we have a function called &ldquo;start_game&rdquo; that takes no parameters and returns type void. This allows our type-checker to know that any calls to the function called &ldquo;start_game&rdquo; should not take any parameters and will return a value of type void. Similarly, on the second line, we define the &ldquo;game_loop&rdquo; function that takes two integers as parameters and also returns type void. Defining functions in a separate file for a relatively simple program may seem superfluous, but the formality in the code will allow our type-checker to sniff out any potential errors in the writing of our code instead of when we run it. For example, the following code will not type-check:</p>
+
+<pre><code class="language-ats">val foo = start_game()
+val bar = game_loop(3, foo)
+</code></pre>
+
+<p>Our type-checker knows that &ldquo;foo&rdquo; will be of type of void due to the definition of &ldquo;start_game&rdquo; and &ldquo;game_loop&rdquo; takes integer parameters so it will not let us compile our faulty code and tell us that we are passing a parameter of the wrong type.</p>
+
+<h2 id="sats-in-the-hats">SATS in the HATS</h2>
+
+<p>We will quickly author one special file that is a part of most ATS programs: <strong>staloadall.hats</strong>. The filename is conventional name and simply means &ldquo;statically load all.&rdquo; All we put in this file is our includes and static loads so that way in our code files, we don&rsquo;t need to manually load what can be a long list of libraries and static files. Ours is relatively short, and since we will only have one code file, it is a bit unnecessary, but it is a good habit to get in for when we get into large, multi-file ATS projects that have long lists of dependencies. Here is the one for this project:</p>
+
+<pre><code class="language-ats">#include &quot;share/atspre_staload.hats&quot;
+#include &quot;share/HATS/atspre_staload_libats_ML.hats&quot;
+
+staload &quot;./guess.sats&quot;
+</code></pre>
+
+<p>All this files does is include two built-in ATS hats files that load a lot of common libraries as well as statically load, via the &ldquo;staload&rdquo; keyword, the static file that we just wrote.</p>
+
+<h2 id="what-s-in-a-file-name-extension">What&rsquo;s in a (file)name (extension)?</h2>
+
+<p>So far, we&rsquo;ve seen a few different types of file extensions. The extensions do not change what the files mean (generally), rather, they are merely conventions since every extension represents a different &ldquo;part&rdquo; in an ATS program. I will briefly now describe what the four main ones are:</p>
+
+<ul>
+<li><strong>.dats:</strong> This is where your <strong>dynamics</strong> go, which is actual implementations of functions, values, etc.. Think of these files as corresponding to &ldquo;.c&rdquo; files in a C program.</li>
+<li><strong>.sats:</strong> As we saw, these files are were your statics go. Think of these files as corresponding to &ldquo;.h&rdquo; files in a C program.</li>
+<li><strong>.hats:</strong> These files are simply a list of static loads and includes. If you are of the habit of having one header file in C program that just includes all the external library need, this is basically that file.</li>
+<li><strong>.cats:</strong> We won&rsquo;t have to deal with these for a little bit, but these ARE treated differently by the compiler to the ones listed above because these files hold C code instead of ATS code. ATS transpiles to C code, and sometimes, especially when dealing with C libraries, we need to put in some raw C code to make it work properly. Don&rsquo;t worry too much about these yet.</li>
+</ul>
+
+<h2 id="preparing-for-compilation">Preparing for Compilation</h2>
+
+<p>Before we get to the real meat and potatoes of the game, let&rsquo;s set up a Makefile because we are rarely going to be writing an ATS program where spitting off compilation commands straight from the terminal is practical or good practice. I am going to assume a basic knowledge of GNU Make and just point out a few things.</p>
+
+<pre><code class="language-Makefile">PATSCC = ${PATSHOME}/bin/patscc
+PATSOPT = ${PATSHOME}/bin/pastopt
+
+INCLUDE = -DATS_MEMALLOC_LIBC -latslib
+
+hello: hello.dats
+	$(PATSCC) -o $@ $&lt;
+
+guess: guess.dats
+	$(PATSCC) $(INCLUDE) -o $@ $&lt;
+
+clean:: ; @rm -f *~
+clean:: ; @rm -f *_?ats.c
+clean:: ; @rm -f *_?ats.o
+clean:: ; @rm -f hello
+clean:: ; @rm -f guess
+</code></pre>
+
+<p>All we do in this Makefile is alias our compiler and type-checker (we don&rsquo;t need it, but I put it in every ATS Makefile by habit), set our includes, and create routines for both our programs as well as some clean routines to remove the intermediate C files and our compiled programs. The first include, &ldquo;-DATS_MEMALLOC_LIBC&rdquo; is required anytime you are doing anything that might need to allocate memory, such as read a string from STDIN, and the second include, &ldquo;-latslib&rdquo;, adds in the function objects for a variety of functions defined in the ATS distribution. Both are usually good to include since a majority of programs will require them.</p>
+
+<h2 id="the-meat-and-potatoes">The Meat and Potatoes</h2>
+
+<p>Now that we have our statics defined it&rsquo;s time to get to the actual implementation of our game. We will break it down function by function starting at the entry point and working from there.</p>
+
+<pre><code class="language-ats">implement main0() = start_game() where {
+  val _ = print(&quot;Welcome to Guess the Number!\n&quot;)
+}
+</code></pre>
+
+<p>All we do in main0 is print out a nice, friendly welcome message, and return the value of our &ldquo;start_game&rdquo; function, which, by the statics, we can see also returns void. This is another instance where we do not care about the return value, but want to call the function because its side effects are what allow the game to run. Now let&rsquo;s look at the start_game function:</p>
+
+<pre><code class="language-ats">local
+  val low = 0
+  val high = 100
+in
+  implement start_game() = game_loop(low, high) where {
+    val _ = println!(&quot;Please think of a number between &quot;, low, &quot; and &quot;, high)
+    val _ = print(&quot;Press enter when you have it.&quot;)
+    val _ = fileref_get_line_string(stdin_ref)
+  }
+end
+</code></pre>
+
+<p>The first thing that will probably stick out is the keyword &ldquo;local&rdquo;. We can think of the progression of &ldquo;local&rdquo;, &ldquo;in&rdquo;, and &ldquo;end&rdquo; similar to that of &ldquo;let&rdquo;, &ldquo;in&rdquo;, and &ldquo;end&rdquo;, only outside of the function in the global scope of the program. Within the first section (between &ldquo;local&rdquo; and &ldquo;in&rdquo;), we define two variables, &ldquo;low&rdquo; and &ldquo;high&rdquo;, which is the starting range for our guesses. We choose to define them outside of the function instead of hard-coding them in so that way we can easily change those two values and have them be reflected in both instances where we reference them. In this function, we tell the user to think of a number, and retrieve a line from STDIN. We don&rsquo;t care what the line is, we just want to halt program execution until the user hits enter (sending in a line). The &ldquo;println!&rdquo; function is similar to &ldquo;print&rdquo;, which we used early, except that it takes a comma-separated list of values which are then concatenated along with a newline character at the end. After the two print statements have been sent to STDOUT and the user sends a line to STDIN, the return value is set equal to &ldquo;game_loop&rdquo; with the default low and high rangers passed as parameters.</p>
+
+<pre><code class="language-ats">implement game_loop(low, high) =
+  let
+    val guess = (high - low) / 2 + low
+    val _ = print!(&quot;Is your number &quot;, guess, &quot;?\n&quot;)
+    val line = get_guess()
+  in
+    ifcase
+    | line = &quot;=&quot; =&gt; play_again() where {
+        val _ = println!(&quot;I got it!&quot;)
+      }
+    | line = &quot;&gt;&quot; =&gt; game_loop(guess, high)
+    | line = &quot;&lt;&quot; =&gt; game_loop(low, guess)
+  end
+</code></pre>
+
+<p>This function calculates the guess by finding the midpoint between the high and low value, prints out the guess, then asks the user if the guess is higher, lower, or correct. The keyword &ldquo;ifcase&rdquo; is a clean way to do a series of if/else statements; each condition begins with a pipe, the statement to the left of the &ldquo;=&gt;&rdquo; symbol is the condition the check, and the statement to the right is what to execute if the condition evaluates to true. Note that the last condition, &ldquo;_&rdquo; is the default, think of it as the final &ldquo;else&rdquo; statement. Also note that the statements are checked in the order that they are written. If the user says the guess is correct, we go into our &ldquo;play_again&rdquo; function, and if its lower/higher we call the game_loop function recursively with the high or low bound set to the guess.</p>
+
+<p>Lastly, let&rsquo;s look at our two helper functions:</p>
+
+<pre><code class="language-ats">implement play_again() =
+  let
+    val _ = print(&quot;Play again? (y/n) &quot;)
+    val line = fileref_get_line_string(stdin_ref)
+  in
+    ifcase
+    | line = &quot;y&quot; =&gt; start_game()
+    | line = &quot;n&quot; =&gt; println!(&quot;Goodbye!&quot;)
+    | _ =&gt; play_again() where {
+        val _ = println!(&quot;Please enter 'y' or 'n'.&quot;)
+      }
+  end
+
+implement get_response() =
+  let val line = fileref_get_line_string(stdin_ref) in
+    if line = &quot;&gt;&quot; || line = &quot;&lt;&quot; || line = &quot;=&quot; then line
+    else get_response() where {
+      val _ = println!(&quot;Please enter '&lt;', '&gt;', or '='.&quot;)
+    }
+  end
+</code></pre>
+
+<p>The first function, &ldquo;play_again&rdquo;, asks the user whether they want to play, and if the user sends in &ldquo;y&rdquo;, it runs the game from the beginning by calling the function that starts the game, if the user inputs &ldquo;n&rdquo;, it says goodbye and allows the program to finish execution, otherwise, it tells the user that its input is not valid and recursively calls itself.</p>
+
+<p>The second function, &ldquo;get_response&rdquo;, is similar. It gets user input, if the input is one of the three valid options, it returns it, otherwise, it yells at the user and recursively calls itself.</p>
+
+<p>So now, we should have three ATS files and a Makefile. If we call make and the executable, it should be able to guess our number (say 69):</p>
+
+<pre><code class="language-bash">$ make guess
+/Users/ryanking/Projects/ATS2/bin/patscc -DATS_MEMALLOC_LIBC -latslib -o guess guess.dats
+$ ./guess
+Welcome to Guess the Number!
+Please think of a number between 0 and 100
+Press enter when you have it.
+Is your number 50?
+&gt;
+Is your number 75?
+&lt;
+Is your number 62?
+&gt;
+Is your number 68?
+&gt;
+Is your number 71?
+&lt;
+Is your number 69?
+=
+I got it!
+Play again? (y/n) n
+Goodbye!
+</code></pre>
+
+<p>It works! You can find all the source code for this post (and future posts) in my <a href="https://github.com/RyanTKing/Joy-of-ATS">Github repository</a>.</p>
+
+<p>One final note, you&rsquo;ll notice that we don&rsquo;t specify return types or parameter types when implementing our functions because the statics already do that for us!</p>
+
+<h1 id="in-summary">In Summary</h1>
+
+<p>All right, since this might have been a lot to bite off for your first dive into ATS, I&rsquo;ll try to summarize a few key points:</p>
+
+<ul>
+<li>Statics are where you define functions and values, usually in a file ending with &ldquo;.sats&rdquo; or in your main ATS file with the &ldquo;extern&rdquo; keyword before it. Defining functions and values associates a name with a type, but does not handle the implementation.</li>
+<li>The dynamics, which is where functions are given implementations and variables are given values are usually in a file ending with &ldquo;.dats&rdquo;. This is what turns into machine code when compiled.</li>
+<li>Values have scopes, and those scopes are defined with &ldquo;where&rdquo;, &ldquo;let&rdquo;/&ldquo;in&rdquo;/&ldquo;end&rdquo;, &ldquo;local&rdquo;/&ldquo;in&rdquo;/&ldquo;end&rdquo;, etc..</li>
+<li>Every function has a return value, but sometimes we don&rsquo;t care about it due to the function&rsquo;s side effects.</li>
+<li>A function takes in zero or more values and returns something, we can use &ldquo;let&rdquo; or &ldquo;where&rdquo; to simulate statements.</li>
+</ul>
+
+<p>I hope you learned something and understand a good chunk of the code that I just threw at you, as always, leave any questions or criticism in the comments below!</p>
+
+<p>Happy type-checking!</p>
+
+  </div>
+
+  <footer>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+        
+            
+            
+                <i class="fa fa-folder"></i>
+                
+                
+                <li><a class="article-category-link" href="http://ryanking.com/categories/ats">ATS</a></li>
+                
+                
+                <li><a class="article-category-link" href="http://ryanking.com/categories/tutorials">Tutorials</a></li>
+                
+            
+        
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+        
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+
+</article>
+
+    <article class="post">
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "carelesslisper" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    </article>
+
+
+<ul class="actions pagination">
+    
+        <li><a href="/blog/joy-of-ats-1-installing-ats/"
+                class="button big previous">The Joy of ATS 1: Installing ATS</a></li>
+    
+
+    
+        <li><a href="/blog/vs-code-for-vim-users/"
+                class="button big next">Visual Studio Code for Vim Users</a></li>
+    
+</ul>
+
+
+    </div>
+    
+<section id="sidebar">
+
+  
+  <section id="intro">
+    
+    
+      
+        <a href='/'><img src="/img/portrait.jpg" class="intro-circle" width="160px" alt="Picture of Ryan King" /></a>
+      
+    
+    
+      <header>
+        <h2>Careless Lisper</h2>
+        <p>The rantings and ravings of a Software Engineer with an affinity for distributed systems and obscure programming languages</p>
+      </header>
+    
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/ryantking" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/ryantking" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:hello@ryanking.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+  </section>
+
+  
+  <section class="recent-posts">
+    <div class="mini-posts">
+      <header>
+        <h3>Recent Posts</h3>
+      </header>
+      <div class="posts-container">
+        
+
+        
+          
+        
+
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/vs-code-for-vim-users/">Visual Studio Code for Vim Users</a>
+              </h3>
+              
+              <time class="published" datetime='2019-01-24'>
+                January 24, 2019
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/vs-code-for-vim-users/" class="image featured">
+            <img src="/img/2019/01/vs-code.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+          <article class="mini-post">
+            <header>
+              <h3>
+                <a href="/blog/joy-of-ats-2-a-simple-game/"> The Joy of ATS 2: A Simple Game</a>
+              </h3>
+              
+              <time class="published" datetime='2017-12-25'>
+                December 25, 2017
+              </time>
+            </header>
+            
+    
+
+    
+        
+        
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+
+        
+        
+        
+
+        <a href="/blog/joy-of-ats-2-a-simple-game/" class="image featured">
+            <img src="/img/2017/12/question-mark.jpg" alt="">
+        </a>
+    
+
+
+          </article>
+        
+      </div>
+
+      
+        <a href=
+          
+            /blog/
+          
+        class="button">View more posts</a>
+      
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+  
+    <section id="mini-bio">
+      <h3>About</h3>
+      <p>Ryan King is a Software Engineer at Cogo Labs in Cambridge, MA with a BA in Computer Science from Boston University. In his free time he works on the development of the ATS ecoystem.</p>
+      <a href="/about/" class="button">Learn More</a>
+    </section>
+  
+
+  
+  <section id="footer">
+    
+      <ul class="icons">
+        
+        
+  <li><a href="//github.com/ryantking" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="//linkedin.com/in/ryantking" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <li><a href="mailto:hello@ryanking.com" title="Email" class="fa fa-envelope"></a></li>
+
+
+      </ul>
+    
+    <p class="copyright">
+      
+        &copy; 2016 Ryan King
+      .
+      Powered by <a href="//gohugo.io" target="_blank">Hugo</a>
+    </p>
+  </section>
+</section>
+
+    </div>
+    <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+    
+
+    
+      
+    
+
+    
+      
+      
+      
+		<script src="http://ryanking.com/js/highlight.pack.js"></script>
+        
+        
+        
+        <script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+      
+    
+    
+    
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.25/jquery.fancybox.min.js"></script>
+      <script src="/js/util.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/backToTop.js"></script>
+    
+
+    
+
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+      <script src="//yihui.name/js/math-code.js"></script>
+<script async
+src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
+  </body>
+</html>
+

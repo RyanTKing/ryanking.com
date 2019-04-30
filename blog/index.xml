@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Careless Lisper</title>
+    <link>http://ryanking.com/blog/</link>
+    <description>Recent content in Blogs on Careless Lisper</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2016 Ryan King</copyright>
+    <lastBuildDate>Thu, 24 Jan 2019 18:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://ryanking.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Visual Studio Code for Vim Users</title>
+      <link>http://ryanking.com/blog/vs-code-for-vim-users/</link>
+      <pubDate>Thu, 24 Jan 2019 18:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/blog/vs-code-for-vim-users/</guid>
+      <description>An Editor Tale as Old as January 1, 1970 Like many people, my journey to Vim did not start at Vim; I spent many days and many nights downloading editors, installing plugins, and learning key bindings that have sinse been forgotten. I had been using SublimeText for a few years when I went into college, but like many poor soles, my first course was a Java course, which broke me, and, as despserate as I have ever been, I booked an appointment at the sinister medical practice of Dr.</description>
+    </item>
+    
+    <item>
+      <title> The Joy of ATS 2: A Simple Game</title>
+      <link>http://ryanking.com/blog/joy-of-ats-2-a-simple-game/</link>
+      <pubDate>Mon, 25 Dec 2017 20:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/blog/joy-of-ats-2-a-simple-game/</guid>
+      <description>Hello, World Now that we have an ATS install up and running on our system, it&amp;rsquo;s time to put it to use. We sill start off by writing the standard &amp;ldquo;hello world&amp;rdquo; program because the Computer Science Tutorial Gods might smite me if we do not. Start by making a new file in your favorite text editor, (I use Emacs with the ats2-mode plugin), and enter the following text:</description>
+    </item>
+    
+    <item>
+      <title>The Joy of ATS 1: Installing ATS</title>
+      <link>http://ryanking.com/blog/joy-of-ats-1-installing-ats/</link>
+      <pubDate>Tue, 14 Feb 2017 12:04:36 -0500</pubDate>
+      
+      <guid>http://ryanking.com/blog/joy-of-ats-1-installing-ats/</guid>
+      <description>Introduction Welcome to a new series of tutorials that I plan on writing over the course of the next several months called &amp;ldquo;The Joy of ATS.&amp;rdquo; For starters, you may not be familiar with ATS, as I wasn&amp;rsquo;t until a few months ago. From the ATS website, ats-lang.org:
+ ATS is a statically typed programming language that unifies implementation with formal specification. It is equipped with a highly expressive type system rooted in the framework Applied Type System, which gives the language its name.</description>
+    </item>
+    
+    <item>
+      <title>On Campers and Counselors</title>
+      <link>http://ryanking.com/blog/on-campers-and-counselors/</link>
+      <pubDate>Sat, 16 Jul 2016 12:32:44 -0400</pubDate>
+      
+      <guid>http://ryanking.com/blog/on-campers-and-counselors/</guid>
+      <description>When someone scans your items at the supermarket or brings your food at a restaurant, it is an easy assumption that those people are simply doing their jobs; it&amp;rsquo;s rare to find someone who is passionate about scanning groceries or low-level work in the food service industry. When it comes to the job of camp counseling, most would probably assume the same thing: it&amp;rsquo;s just the means to a paycheck. For some that may be true, but for many, myself included, the paycheck is not the ends, rather, it is merely a way to justify spending two months at camp to those who &amp;ldquo;don&amp;rsquo;t get camp.</description>
+    </item>
+    
+    <item>
+      <title>Why I Work as a Camp Counselor</title>
+      <link>http://ryanking.com/blog/why-i-work-as-a-camp-counselor/</link>
+      <pubDate>Sun, 05 Jun 2016 13:55:33 -0400</pubDate>
+      
+      <guid>http://ryanking.com/blog/why-i-work-as-a-camp-counselor/</guid>
+      <description>As the counting of weeks before camp turns into the counting of days before camp, I&amp;rsquo;ve spent a lot of time reflecting on my choice to spend a second summer as a counselor at a sleep away camp. I believe it comes down to the fact that camp is, to explain mathematically, the &amp;ldquo;absolute value&amp;rdquo; of college; the majority of the positives of college are present at camp, and a majority of the inverses of the negatives of college are also present at camp.</description>
+    </item>
+    
+    <item>
+      <title>Hello, World!</title>
+      <link>http://ryanking.com/blog/hello-world/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://ryanking.com/blog/hello-world/</guid>
+      <description>Now that school&amp;rsquo;s finally out, I&amp;rsquo;ve finally gotten around to putting my blog up. I will be giving a technical overview in the coming week after I get everything working the way I want. The purpose of this blog is to keep myself focused; if I don&amp;rsquo;t have anything interesting to write about then that&amp;rsquo;s a sign that I need to stop wasting time.
+Most of the content will be related to Computer Science (as seen by the title of this post), but I may ramble about politics, video games, photography, or something else that crosses my mind.</description>
+    </item>
+    
+  </channel>
+</rss>
